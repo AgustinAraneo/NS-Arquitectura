@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  }
+
+  
+  /* Estilo de seleccion de las opciones de las Navbar */
+
+.navbarSelected.active {
+    color: white;
+    position: relative;
+  }
+  
+  .navbarSelected.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(1);
+    transform-origin: left center;
+    transition: transform 1s ease;
+  }
+  
+  .navbarSelected:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .navbarSelected:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbarSelected:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.5s ease;
+  }
+  
+    /* Fin del estilo de seleccion de las opciones de las Navbar */
+
+
+    

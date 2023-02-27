@@ -1,10 +1,17 @@
 import React from 'react'
+import Navbar from './Navbar'
+import Home from './Home'
 
 const Desktop = () => {
   return (
-    <div className='text-blue-500 text-2xl text-center'>Entre Compu
-    <div className='text-purple-500'>
-        Soy pro, estoy probando</div></div>
+    <div>
+      <div className='bg-home w-full min-h-screen'>
+      <div>
+        <Navbar />
+        <Home /> 
+      </div>
+      </div>
+    </div>
 
   )
 }

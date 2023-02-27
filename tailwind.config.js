@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Montserrat': ['Montserrat']
+      },
+      backgroundImage: {
+        'home': "url('/images/home.jpg')",
+      }
+    },
   },
   plugins: [],
 }
