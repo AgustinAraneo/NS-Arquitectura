@@ -6,7 +6,7 @@ import Home2 from './Home2'
 const Desktop = () => {
   return (
     <div>
-      <div className='bg-home w-full min-h-screen'>
+      <div className='w-full min-h-screen bg-home'>
       <div>
         <Navbar />
         <Home /> 
