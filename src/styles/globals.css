@@ -52,5 +52,46 @@
   
     /* Fin del estilo de seleccion de las opciones de las Navbar */
 
+    /* Animacion texto del home */
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+      }
+    
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+    
+    .fadeInDown {
+      animation-name: fadeInDown;
+      animation-duration: 3s;
+      animation-fill-mode: both;
+    }
+
+/* Fin de la animacion del texto */
+
+    /* Animacion de la flecha */
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+    }
+    
+    .fadeIn {
+      animation-name: fadeIn;
+      animation-duration: 3s; /* Duración de la animación */
+    }
+
+/* Fin de la animacion de la flecha     */
+
 
     

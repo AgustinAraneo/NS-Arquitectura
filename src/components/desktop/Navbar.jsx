@@ -1,4 +1,5 @@
-import { FaFacebook, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import {FiMail} from 'react-icons/fi'
 import { useRouter } from 'next/router';
 import Link from 'next/link'
 
@@ -6,8 +7,8 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-black/80 p-8 font-Montserrat">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
+    <nav className="flex items-center justify-between flex-wrap bg-black p-8 font-Montserrat">
+      <div className="flex items-center flex-shrink-0 text-white">
         <span className="text-xl tracking-tight ml-[10rem] text-slate-400">Nicolas <span className='text-white'>Schnaider</span></span>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
@@ -31,13 +32,13 @@ const Navbar = () => {
 
         <div className='mr-[10rem] text-xl'>
           <a href="#" className="inline-block text-slate-400 hover:text-white mr-4">
-            <FaFacebook />
+            <FaInstagram />
           </a>
           <a href="#" className="inline-block text-slate-400 hover:text-white mr-4">
-            <FaTwitter />
+            <FaWhatsapp />
           </a>
           <a href="#" className="inline-block text-slate-400 hover:text-white">
-            <FaWhatsapp />
+            <FiMail />
           </a>
         </div>
       </div>

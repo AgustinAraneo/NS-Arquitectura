@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Home from './Home'
+import Home2 from './Home2'
 
 const Desktop = () => {
   return (
@@ -10,6 +11,9 @@ const Desktop = () => {
         <Navbar />
         <Home /> 
       </div>
+      </div>
+      <div>
+        <Home2 />
       </div>
     </div>
 
