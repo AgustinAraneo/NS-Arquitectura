@@ -94,5 +94,19 @@
 
 /* Fin de la animacion de la flecha     */
 
+/* Scroll barf */
 
-    
+body::-webkit-scrollbar{
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #808080;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background: #4d4b4b;
+}
+
+/* Fin scroll bar */
