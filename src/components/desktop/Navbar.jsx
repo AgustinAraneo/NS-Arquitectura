@@ -13,7 +13,7 @@ const Navbar = () => {
         <span className="text-xl tracking-tight ml-[0rem] text-slate-400">Nicolas <span className='text-white'>Schnaider</span></span>
       </div>
       <div className="flex-grow block w-full lg:flex lg:items-center lg:w-auto">
-        <div className="mx-auto text-xl">
+        <div className="mx-auto text-xl flex ">
           <Link href="/">
             <p className={router.asPath === '/' ? 'block mt-10 lg:inline-block lg:mt-0 text-slate-400 hover:text-white mr-10 active navbarSelected' : 'block mt-10 lg:inline-block lg:mt-0 text-slate-400 hover:text-white mr-10'}>
               Inicio

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 function ContactForm() {
   const [name, setName] = useState('');
@@ -8,19 +9,29 @@ function ContactForm() {
   const [tipo, setTipo] = useState('');
   const [superficie, setSuperficie] = useState('');
   const [presupuesto, setPresupuesto] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', { name, email, telefono, message, tipo, superficie, presupuesto });
-    // Aquí podrías enviar los datos del formulario a un servidor o realizar otras acciones.
-  };
+  const sendEmail = (event) => {
+    event.preventDefault();
+    setLoading(true);
+
+    emailjs.sendForm('agus-prueba', 'correo-prueba-araneo', event.target, 'c35DvJhbFaosvgQp6')
+      .then(response => {
+        console.log(response);
+        setLoading(false);
+        setSuccess(true);
+      })
+      .catch(error => console.log(error))
+  }
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-lg p-4 mx-auto mt-6 bg-white font-Montserrat">
+    <form onSubmit={sendEmail} className="max-w-lg p-4 mx-auto mt-6 bg-white font-Montserrat">
       <div className="mb-4">
         <label htmlFor="name" className="block mb-2 font-medium text-center text-gray-700">Nombre</label>
         <input
           type="text"
+          name='name'
           id="name"
           className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
           value={name}
@@ -32,6 +43,7 @@ function ContactForm() {
         <label htmlFor="email" className="block mb-2 font-medium text-center text-gray-700">Correo electronico</label>
         <input
           type="email"
+          name='email'
           id="email"
           className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
           value={email}
@@ -43,6 +55,7 @@ function ContactForm() {
         <label htmlFor="telefono" className="block mb-2 font-medium text-center text-gray-700">Telefono</label>
         <input
           type="text"
+          name='telefono'
           id="telefono"
           className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
           value={telefono}
@@ -53,6 +66,7 @@ function ContactForm() {
       <div className="mb-4">
         <label htmlFor="tipo" className="block mb-2 font-medium text-center text-gray-700">Tipo de reforma (Piso o Local)</label>
         <select
+          name='tipo'
           id="tipo"
           className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
           value={tipo}
@@ -67,6 +81,7 @@ function ContactForm() {
       <div className="mb-4">
         <label htmlFor="superficie" className="block mb-2 font-medium text-center text-gray-700">Superficie (m2)</label>
         <select
+          name='superficie'
           id="superficie"
           className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
           value={superficie}
@@ -85,6 +100,7 @@ function ContactForm() {
         <label htmlFor="presupuesto" className="block mb-2 font-medium text-center text-gray-700">Presupuesto estimado</label>
         <input
           type="text"
+          name='presupuesto'
           id="presupuesto"
           className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
           value={presupuesto}
@@ -95,17 +111,19 @@ function ContactForm() {
       <div className="mb-4">
         <label htmlFor="message" className="block mb-2 font-medium text-center text-gray-700">Tu mensaje</label>
         <textarea
+          name='message'
           id="message"
-          className="w-full p-6 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black" 
+          className="w-full p-6 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           required
         ></textarea>
       </div>
       <div className="text-center">
-        <button type="submit" className="px-4 py-2 font-medium text-white transition duration-500 rounded-md bg-black/70 hover:bg-black/90">
-          Enviar
+        <button type="submit" className={`px-4 py-2 font-medium text-white transition duration-500 rounded-md ${loading ? 'bg-gray-500 cursor-not-allowed' : 'bg-black/70 hover:bg-black/90'}`} disabled={loading}>
+          {loading ? 'Enviando...' : 'Enviar'}
         </button>
+        {success && <p className="text-green-500 mt-2">El correo electrónico se envió correctamente.</p>}
       </div>
     </form>
   );
