@@ -7,7 +7,7 @@ const Home = () => {
             <div>
                 <h1 className='text-5xl text-center text-white/80 font-Montserrat mt-[15%] fadeInDown'>Nicolas Schnaider
                     Construcciones</h1>
-                <p className='text-7xl text-white flex justify-center mt-10 cursor-pointer fadeIn'>
+                <p className='text-7xl text-white flex justify-center mt-10 fadeIn'>
                     < HiOutlineArrowLongDown />
                 </p>
             </div>

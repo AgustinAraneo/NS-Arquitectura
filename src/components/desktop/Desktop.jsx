@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Home from './Home'
 import Home2 from './Home2'
 import Footer from './Footer'
+import ScrollButton from './ScrollButton'
 
 const Desktop = () => {
   return (
@@ -10,6 +11,7 @@ const Desktop = () => {
       <div className='w-full min-h-screen bg-home'>
       <div>
         <Navbar />
+        <ScrollButton />
         <Home /> 
       </div>
       </div>

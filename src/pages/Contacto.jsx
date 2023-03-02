@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "@/components/desktop/Navbar";
+import ScrollButton from "@/components/desktop/ScrollButton";
 import ContactForm from "@/components/desktop/ContactForm";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
@@ -9,6 +10,7 @@ const Contacto = () => {
   return (
     <div>
       <Navbar />
+      <ScrollButton />
       <div className="w-full bg-zinc-700 h-fit ">
         <h1 className="pt-10 text-xl text-center text-white font-Montserrat fadeIn">
           Converti tu idea en una realidad... <br />

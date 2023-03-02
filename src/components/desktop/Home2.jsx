@@ -32,7 +32,7 @@ const Home2 = () => {
                 <div className="w-1/2 flex flex-col justify-center items-center">
                     <p className="mb-16 font-Montserrat Extra Bold text-6xl font-extrabold text-black select-none">¿Estás pensando<br /> en realizar una<br /> reforma integral?</p>
                     <Link href="/Contacto">
-                        <button className="bg-black text-white font-bold py-2 px-4 rounded-full transition duration-500 hover:scale-105 font-Montserrat shadow-2xl">
+                        <button className="bg-black text-white font-bold py-4 px-6 text-xl rounded transition duration-500 hover:scale-105 font-Montserrat shadow-2xl">
                             Contáctanos
                         </button>
                     </Link>
