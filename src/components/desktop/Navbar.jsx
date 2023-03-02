@@ -21,7 +21,7 @@ const Navbar = () => {
           </Link>
           <Link href="/Reformas">
             <p className={router.asPath === '/Reformas' ? 'block mt-10 lg:inline-block lg:mt-0 text-slate-400 hover:text-white mr-10 active navbarSelected' : 'block mt-10 lg:inline-block lg:mt-0 text-slate-400 hover:text-white mr-10'}>
-              Reformas
+              Proyectos
             </p>
           </Link>
           <Link href="/Contacto">

@@ -1,12 +1,13 @@
 import React from 'react'
 import { FaHome, FaHardHat } from 'react-icons/fa'
-import {GrZoomIn} from 'react-icons/gr'
+import { GrZoomIn } from 'react-icons/gr'
+import Link from 'next/link'
 
 const Home2 = () => {
     return (
         <div>
             <div className='w-full h-full text-black bg-white font-Montserrat'>
-                <h3 className='pt-10 text-5xl font-bold text-center'>Nosotros</h3>
+                <h3 className='pt-44 text-5xl font-bold text-center'>Nosotros</h3>
                 <p className='mx-auto text-center text-xl font-Montserrat pt-4 w-[70%] leading-8'>Somos un estudio de arquitectura y construcción
                     centrado en el mercado español. Nace de nuestra pasión por fusionar el diseño y la construcción. Cada proyecto es un nuevo reto donde se transforman la luz, el espacio, las ingenierías y el detalle, con el objetivo de cubrir las necesidades de uso, confort y coste del cliente.</p>
             </div>
@@ -25,6 +26,28 @@ const Home2 = () => {
                     <GrZoomIn className='mx-auto' />
                     <p className='pt-4 mx-auto font-medium text-center'>Responsabilidad</p>
                     <p className='pt-4 text-lg  w-[90%] mx-auto'>Estamos comprometidos en proporcionar una experiencia de construcción transparente y sin complicaciones para nuestros clientes. Trabajamos con los más altos estándares de calidad, eficiencia y atención al detalle, para que tu proyecto sea entregado a tiempo y en condiciones.</p>
+                </div>
+            </div>
+            <div className="flex h-[45rem] mt-44 bg-stone-400">
+                <div className="w-1/2 flex flex-col justify-center items-center">
+                    <p className="mb-16 font-Montserrat Extra Bold text-6xl font-extrabold text-black select-none">¿Estás pensando<br /> en realizar una<br /> reforma integral?</p>
+                    <Link href="/Contacto">
+                        <button className="bg-black text-white font-bold py-2 px-4 rounded-full transition duration-500 hover:scale-105 font-Montserrat shadow-2xl">
+                            Contáctanos
+                        </button>
+                    </Link>
+                </div>
+                <div className="w-1/2 relative">
+                    <img
+                        className="w-full h-full object-cover"
+                        src="https://i.postimg.cc/j55FvP0y/Copia-de-D5-Image-7-20220424-014335-1.png"
+                        alt="Proyecto"
+                    />
+                    <Link href="/Reformas">
+                        <div className="absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-500 opacity-0 hover:bg-opacity-50 hover:opacity-100">
+                            <p className="text-white font-bold text-5xl font-Montserrat text-center mb-20">Ve nuestros<br /> proyectos</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

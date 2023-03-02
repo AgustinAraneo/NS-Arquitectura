@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Montserrat': ['Montserrat']
+        'Montserrat': ['Montserrat'],
+        'Montserrat Extra Bold': ['Montserrat Extra Bold'],
+        'Montserrat Black': ['Montserrat Black']
       },
       backgroundImage: {
         'home': "url('/images/home.jpg')",
