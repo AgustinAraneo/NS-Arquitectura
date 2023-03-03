@@ -11,10 +11,10 @@ const Contacto = () => {
     <div>
       <Navbar />
       <ScrollButton />
-      <div className="w-full bg-zinc-700 h-fit ">
-        <h1 className="pt-10 text-xl text-center text-white font-Montserrat fadeIn">
+      <div className="w-full bg-white h-fit ">
+        <h1 className="pt-10 text-xl text-center text-black font-Montserrat fadeIn">
           Converti tu idea en una realidad... <br />
-          <span className="pt-2 text-5xl font-bold text-center text-white font-Montserrat">
+          <span className="pt-2 text-5xl font-bold text-center text-black font-Montserrat">
             Contactanos
           </span>
         </h1>

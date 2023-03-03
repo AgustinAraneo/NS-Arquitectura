@@ -29,7 +29,7 @@ function ContactForm() {
     <div className="max-w-[72rem] mx-auto px-4 pt-10">
   <div className='flex mx-auto'>
     <img src='images/fotoform.jpg' className='max-w-[32rem] h-full' />
-    <form onSubmit={sendEmail} className="ml-4 flex-auto p-4 bg-white font-Montserrat">
+    <form onSubmit={sendEmail} className="ml-4 flex-auto p-4 bg-zinc-200 font-Montserrat">
       <div className="mb-4">
         <label htmlFor="name" className="block mb-2 font-medium text-center text-gray-700">Nombre</label>
         <input
