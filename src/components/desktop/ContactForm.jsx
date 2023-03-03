@@ -26,7 +26,10 @@ function ContactForm() {
   }
 
   return (
-    <form onSubmit={sendEmail} className="max-w-lg p-4 mx-auto mt-6 bg-white font-Montserrat">
+    <div className="max-w-[72rem] mx-auto px-4 pt-10">
+  <div className='flex mx-auto'>
+    <img src='images/fotoform.jpg' className='max-w-[32rem] h-full' />
+    <form onSubmit={sendEmail} className="ml-4 flex-auto p-4 bg-white font-Montserrat">
       <div className="mb-4">
         <label htmlFor="name" className="block mb-2 font-medium text-center text-gray-700">Nombre</label>
         <input
@@ -98,15 +101,20 @@ function ContactForm() {
       </div>
       <div className="mb-4">
         <label htmlFor="presupuesto" className="block mb-2 font-medium text-center text-gray-700">Presupuesto estimado</label>
-        <input
-          type="text"
+        <select
           name='presupuesto'
           id="presupuesto"
           className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
           value={presupuesto}
           onChange={(e) => setPresupuesto(e.target.value)}
           required
-        />
+        >
+          <option value="">Seleccione una opción</option>
+          <option value="Hasta 20.000€">Hasta 20.000€</option>
+          <option value="De 20.001€ a 45.000€">De 20.001€ a 45.000€</option>
+          <option value="De 45.001€ a 70.000€">De 45.001€ a 70.000€</option>
+          <option value="Más de 70.000€">Más de 70.000€</option>
+        </select>
       </div>
       <div className="mb-4">
         <label htmlFor="message" className="block mb-2 font-medium text-center text-gray-700">Tu mensaje</label>
@@ -126,6 +134,8 @@ function ContactForm() {
         {success && <p className="text-green-500 mt-2">El correo electrónico se envió correctamente.</p>}
       </div>
     </form>
+    </div>
+    </div>
   );
 }
 

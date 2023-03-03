@@ -11,7 +11,7 @@ const Home2 = () => {
                 <p className='mx-auto text-center text-xl font-Montserrat pt-4 w-[70%] leading-8'>Somos un estudio de arquitectura y construcción
                     centrado en el mercado español. Nace de nuestra pasión por fusionar el diseño y la construcción. Cada proyecto es un nuevo reto donde se transforman la luz, el espacio, las ingenierías y el detalle, con el objetivo de cubrir las necesidades de uso, confort y coste del cliente.</p>
             </div>
-            <div className='flex text-black text-3xl justify-center grid-cols-3 pt-16 w-[70%] leading-8 mx-auto mb-10 font-Montserrat'>
+            <div className='flex text-black text-3xl justify-center grid-cols-3 pt-16 w-[70%] leading-8 mx-auto pb-16 font-Montserrat'>
                 <div className='w-[50%] mx-auto transition duration-500 hover:scale-105'>
                     <FaHome className='mx-auto' />
                     <p className='pt-4 mx-auto font-medium text-center'>Años de experiencia</p>
@@ -40,7 +40,7 @@ const Home2 = () => {
                 <div className="w-1/2 relative">
                     <img
                         className="w-full h-full object-cover"
-                        src="https://i.postimg.cc/j55FvP0y/Copia-de-D5-Image-7-20220424-014335-1.png"
+                        src="https://i.postimg.cc/Zqw4Tvrg/principal.png"
                         alt="Proyecto"
                     />
                     <Link href="/Reformas">

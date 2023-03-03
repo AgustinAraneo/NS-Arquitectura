@@ -8,7 +8,7 @@ import ScrollButton from './ScrollButton'
 const Desktop = () => {
   return (
     <div>
-      <div className='w-full min-h-screen bg-home'>
+      <div className='w-full min-h-screen bg-home bg-cover bg-center'>
       <div>
         <Navbar />
         <ScrollButton />
@@ -20,7 +20,6 @@ const Desktop = () => {
       </div>
       <Footer />
     </div>
-
   )
 }
 
