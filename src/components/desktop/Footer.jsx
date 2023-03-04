@@ -13,7 +13,7 @@ function Footer() {
           <p>Dirección: Calle de Zabaleta, 23, 28002 Madrid.</p>
         </div>
         <div className='mt-4 w-24 h-24 '>
-          <img src='images/logo-blanco.png' />
+          <img src='https://i.postimg.cc/v8JVh1jW/logo-blanco.png' />
         </div>
       </div>
       <div className="flex justify-center space-x-4 py-4 mx-auto text-2xl mt-10" style={{ borderTop: "solid 1px #718096", width: "70%" }}>

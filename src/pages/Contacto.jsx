@@ -62,13 +62,13 @@ const Contacto = () => {
             <div className="relative shadow-lg">
               <img className="w-full h-full object-cover" src="https://i.postimg.cc/BZFWXPjP/contacto1.jpg" alt="Imagen 1" />
               <div className="absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-300 opacity-0 hover:bg-opacity-50 hover:opacity-100">
-                <p className="text-white text-2xl">Título de la imagen 1</p>
+                <p className="text-white text-2xl">Trabajo realizado en Ruiz</p>
               </div>
             </div>
             <div className="relative shadow-lg">
               <img className="w-full h-full object-cover" src="https://i.postimg.cc/3wbMDgjm/contacto2.jpg" alt="Imagen 2" />
               <div className="absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-300 opacity-0 hover:bg-opacity-50 hover:opacity-100">
-                <p className="text-white text-2xl">Título de la imagen 2</p>
+                <p className="text-white text-2xl">Trabajo realizado en Osom</p>
               </div>
             </div>
             <div className="relative shadow-lg">

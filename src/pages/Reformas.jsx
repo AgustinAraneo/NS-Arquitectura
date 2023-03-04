@@ -3,43 +3,44 @@ import Image from 'next/image';
 import Navbar from '@/components/desktop/Navbar';
 import Footer from '@/components/desktop/Footer';
 import Link from 'next/link';
+import ScrollButton from '@/components/desktop/ScrollButton';
 
 const proyectos = [
   {
-    name: 'Abtao',
-    title: 'Abtao',
-    image: '/images/Abtao/6.jpg',
-    url: '/',
+    name: 'F014',
+    title: 'Hilario',
+    image: '/images/F014/5.png',
+    url: '/Contacto',
   },
   {
     name: 'Hilario',
     title: 'Hilario',
-    image: '/images/Hilario/4.jpg',
+    image: '/images/Hilario/portada.jpg',
     url: '/Contacto',
   },
   {
     name: 'Osom',
     title: 'Osom',
-    image: '/images/Osom/1.jpg',
+    image: '/images/Osom/portada.jpg',
     url: '/prueba',
   },
   {
     name: 'Margallo',
     title: 'Margallo',
-    image: '/images/Margallo/1.jpg',
+    image: '/images/Margallo/portada.jpg',
     url: '/prueba',
   },
   {
     name: 'Ruiz',
     title: 'Prueba',
-    image: '/images/Ruiz/1.jpg',
+    image: '/images/Ruiz/portada.jpg',
     url: '/Proyectos/Ruiz',
   },
   {
-    name: 'Hilario',
-    title: 'Hilario',
-    image: '/images/Hilario/4.jpg',
-    url: '/Contacto',
+    name: 'Abtao',
+    title: 'Abtao',
+    image: '/images/Abtao/portada.jpg',
+    url: '/',
   }
 ];
 
@@ -47,6 +48,7 @@ const Reformas = () => {
   return (
     <div>
       <Navbar />
+      <ScrollButton />
       <div className="mx-auto pb-10 grid grid-cols-3 max-2xl:grid-cols-2 gap-8 font-Montserrat w-[60%] pt-10 fadeIn">
         {proyectos.map((image, index) => {
           return (
