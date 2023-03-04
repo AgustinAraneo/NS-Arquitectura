@@ -5,14 +5,15 @@ import ContactForm from "@/components/desktop/ContactForm";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import Footer from "@/components/desktop/Footer";
+import Link from "next/link";
 
 const Contacto = () => {
   return (
     <div>
       <Navbar />
       <ScrollButton />
-      <div className="w-full bg-white h-fit ">
-        <h1 className="pt-10 text-xl text-center text-black font-Montserrat fadeIn">
+      <div className="w-full bg-white h-fit pt-[9rem]">
+        <h1 className="text-xl text-center text-black font-Montserrat fadeIn">
           Converti tu idea en una realidad... <br />
           <span className="pt-2 text-5xl font-bold text-center text-black font-Montserrat">
             Contactanos
@@ -60,21 +61,25 @@ const Contacto = () => {
         <div className="w-4/5 mx-auto pb-10">
           <div className="grid grid-cols-3 gap-8">
             <div className="relative shadow-lg">
+              <Link href="/Proyectos/Ruiz">
               <img className="w-full h-full object-cover" src="https://i.postimg.cc/BZFWXPjP/contacto1.jpg" alt="Imagen 1" />
               <div className="absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-300 opacity-0 hover:bg-opacity-50 hover:opacity-100">
                 <p className="text-white text-2xl">Trabajo realizado en Ruiz</p>
               </div>
+              </Link>
             </div>
             <div className="relative shadow-lg">
+              <Link href="/Proyectos/Osom">
               <img className="w-full h-full object-cover" src="https://i.postimg.cc/3wbMDgjm/contacto2.jpg" alt="Imagen 2" />
               <div className="absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-300 opacity-0 hover:bg-opacity-50 hover:opacity-100">
                 <p className="text-white text-2xl">Trabajo realizado en Osom</p>
               </div>
+              </Link>
             </div>
             <div className="relative shadow-lg">
               <img className="w-full h-full object-cover " src="https://i.postimg.cc/hP9q3QgR/contacto3.jpg" alt="Imagen 3" />
               <div className="absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-300 opacity-0 hover:bg-opacity-50 hover:opacity-100">
-                <p className="text-white text-2xl">Trabajo realizado en F014</p>
+                <p className="text-white text-2xl">Render</p>
               </div>
             </div>
           </div>

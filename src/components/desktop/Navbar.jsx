@@ -7,10 +7,9 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-8 bg-white/90 font-Montserrat">
+    <nav className="fixed top-0 w-full flex flex-wrap items-center justify-between p-8 bg-white/90 font-Montserrat z-50">
       <div className="items-center flex-shrink-0 text-black flex flex-col">
       <img src='https://i.postimg.cc/P5MHswSG/logo-ns-simple-negro.png' className='w-[4.5rem] h-[2.3rem]' />
-      <span>Arquitectura</span>
       </div>
       <div className="flex-grow block w-full lg:flex lg:items-center lg:w-auto">
         <div className="mx-auto text-xl flex font-Montserrat font-semibold pl-20">

@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Home2 = () => {
     return (
         <div>
-            <div className='w-full h-full text-black bg-white font-Montserrat'>
+            <div className='w-full  text-black bg-white font-Montserrat'>
                 <h3 className='pt-44 text-5xl font-bold text-center'>Nosotros</h3>
                 <p className='mx-auto text-xl font-Montserrat pt-4 w-[68%] leading-8'>Somos un estudio de arquitectura y construcción
                     centrado en el mercado español. Nace de nuestra pasión por fusionar el diseño y la construcción. Cada proyecto es un nuevo reto donde se transforman la luz, el espacio, las ingenierías y el detalle, con el objetivo de cubrir las necesidades de uso, confort y coste del cliente.</p>

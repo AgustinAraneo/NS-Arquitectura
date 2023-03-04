@@ -7,15 +7,15 @@ import ScrollButton from './ScrollButton'
 
 const Desktop = () => {
   return (
-    <div>
-      <div className='w-full min-h-screen bg-home bg-cover bg-center'>
-      <div>
-        <Navbar />
-        <ScrollButton />
-        <Home /> 
+    <div className='relative'>
+      <div className='absolute top-0 left-0 w-full h-screen bg-home bg-cover bg-center z-10'>
+        <div className='relative'>
+          <Navbar style={{ zIndex: 20 }} />
+          <ScrollButton />
+          <Home />
+        </div>
       </div>
-      </div>
-      <div>
+      <div className='pt-[calc(100vh*0.90)] sm:pt-1/2'>
         <Home2 />
       </div>
       <Footer />
