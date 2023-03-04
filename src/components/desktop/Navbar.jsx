@@ -7,13 +7,13 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-8 bg-white font-Montserrat border-black border-b-2">
+    <nav className="flex flex-wrap items-center justify-between p-8 bg-white/90 font-Montserrat">
       <div className="items-center flex-shrink-0 text-black flex flex-col">
-      <img src='images/logo-ns-simple-negro.png' className='w-[4.5rem] h-[2.3rem]' />
+      <img src='https://i.postimg.cc/P5MHswSG/logo-ns-simple-negro.png' className='w-[4.5rem] h-[2.3rem]' />
       <span>Arquitectura</span>
       </div>
       <div className="flex-grow block w-full lg:flex lg:items-center lg:w-auto">
-        <div className="mx-auto text-xl flex font-Montserrat font-semibold">
+        <div className="mx-auto text-xl flex font-Montserrat font-semibold pl-20">
           <Link href="/">
             <p className={router.asPath === '/' ? 'block mt-10 lg:inline-block lg:mt-0 text-black hover:text-black mr-10 active navbarSelected' : 'block mt-10 lg:inline-block lg:mt-0 text-black hover:text-black mr-10'}>
               Inicio
