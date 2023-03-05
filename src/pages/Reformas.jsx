@@ -92,7 +92,7 @@ const Reformas = () => {
         </div>
       </div>
       <div>
-      <h3 className='w-[60%] mx-auto text-4xl pt-[10rem] mb-4 font-Montserrat font-medium text-center fadeIn'>Locales:</h3>
+      <h3 className='w-[60%] mx-auto text-4xl pt-[8rem] mb-4 font-Montserrat font-medium text-center fadeIn'>Locales:</h3>
       <div className="mx-auto pb-10 grid grid-cols-3 max-2xl:grid-cols-2 gap-8 font-Montserrat w-[60%] fadeIn">
         {proyectosLocales.map((image, index) => {
           return (

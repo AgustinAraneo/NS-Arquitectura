@@ -12,7 +12,7 @@ const Index = () => {
 	} else if (isDesktop === false) {
 		return <Mobile />
 	}
-	return <p><FaSpinner size={50} color="grey" className='animate-spin mx-auto mt-[40rem] bg-white text-black text-5xl'/></p>
+	return <p><FaSpinner size={50} color="grey" className='animate-spin mx-auto mt-[30rem] bg-white text-black text-5xl'/></p>
 }
 
 export default Index

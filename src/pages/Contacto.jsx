@@ -78,7 +78,7 @@ const Contacto = () => {
             </div>
             <div className="relative shadow-lg">
               <img className="w-full h-full object-cover " src="https://i.postimg.cc/hP9q3QgR/contacto3.jpg" alt="Imagen 3" />
-              <div className="absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-300 opacity-0 hover:bg-opacity-50 hover:opacity-100">
+              <div className="cursor-pointer absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-300 opacity-0 hover:bg-opacity-50 hover:opacity-100">
                 <p className="text-white text-2xl">Render</p>
               </div>
             </div>
