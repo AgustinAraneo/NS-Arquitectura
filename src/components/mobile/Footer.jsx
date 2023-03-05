@@ -17,7 +17,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex justify-center space-x-4 py-4 mx-auto text-2xl mt-4" style={{ borderTop: "solid 1px #718096", width: "70%" }}>
-        <a href="#" className="inline-block text-slate-400 hover:text-white transition duration-500 hover:scale-105">
+        <a href="https://www.instagram.com/ns_reforma/" target="_blank" rel="noreferrer" className="inline-block text-slate-400 hover:text-white transition duration-500 hover:scale-105">
             <FaInstagram />
           </a>
           <a href="#" className="inline-block text-slate-400 hover:text-white transition duration-500 hover:scale-105">
