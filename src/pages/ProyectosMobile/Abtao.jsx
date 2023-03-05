@@ -8,7 +8,7 @@ const Abtao = () => {
     <div>
       <Navbar />
       <ScrollButton />
-      <div className='pt-[10rem]'>
+      <div className='pt-[5rem]'>
         <h1 className='text-center text-4xl font-Montserrat fadeIn font-base'>- Abtao -</h1>
         <p className='text-center fadeIn text-sm pt-4 w-[80%] mx-auto'>Ubicacion: Pacifico, Madrid - Tipo de reforma: Vivienda - Fecha de realizacion: Septiembre 2022</p>
       </div>

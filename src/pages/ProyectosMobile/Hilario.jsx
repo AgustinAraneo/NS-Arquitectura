@@ -8,7 +8,7 @@ const Hilario = () => {
     <div>
       <Navbar />
       <ScrollButton />
-      <div className='pt-[10rem]'>
+      <div className='pt-[5rem]'>
         <h1 className='text-center text-4xl font-Montserrat fadeIn font-base'>- Hilario -</h1>
         <p className='text-center fadeIn text-sm pt-4 w-[80%] mx-auto'>Ubicacion: Lucero, Madrid - Tipo de reforma: Vivienda - Fecha de realizacion: Agosto 2022</p>
       </div>

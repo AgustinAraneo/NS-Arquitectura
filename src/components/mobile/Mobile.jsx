@@ -4,6 +4,7 @@ import Home from './Home'
 import Home2 from './Home2'
 import Footer from './Footer'
 import ScrollButton from '../desktop/ScrollButton'
+import Responsive from './Slick'
 
 const Mobile = () => {
   return (
@@ -19,6 +20,7 @@ const Mobile = () => {
       </div>
       <div className='pt-[calc(100vh*1)] sm:pt-1/2'>
         <Home2 />
+      <Responsive />
       </div>
       <Footer />
     </div>

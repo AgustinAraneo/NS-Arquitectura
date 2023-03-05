@@ -4,6 +4,7 @@ import Home from './Home'
 import Home2 from './Home2'
 import Footer from './Footer'
 import ScrollButton from './ScrollButton'
+import Slick from './Slick'
 
 const Desktop = () => {
   return (
@@ -17,6 +18,7 @@ const Desktop = () => {
       </div>
       <div className='pt-[calc(100vh*0.90)] sm:pt-1/2'>
         <Home2 />
+        <Slick />
       </div>
       <Footer />
     </div>

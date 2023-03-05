@@ -10,12 +10,20 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-between bg-white bg-opacity-80 px-4 py-3 relative">
+      <div className="flex items-center">
+        <p>
+          <img
+            src="/images/logo-ns-simple-negro.png"
+            alt="Logo"
+            className="h-6 mr-2"
+          />
+        </p>
+      </div>
       <div className="relative">
         <button
-          className="flex items-center px-3 py-2 border rounded text-black hover:bg-gray-200 focus:outline-none mr-10"
+          className="flex px-3 py-2 border rounded text-black hover:bg-gray-200 focus:outline-none mr-2"
           onClick={toggleMenu}
         >
-          <span className="sr-only">Open main menu</span>
           <svg
             className="block h-6 w-6"
             xmlns="http://www.w3.org/2000/svg"
@@ -33,10 +41,11 @@ const Navbar = () => {
         </button>
         <div
           className={`${
-            isOpen ? "block absolute bg-white mt-2 rounded-md shadow-lg" : "hidden"
+            isOpen ? "flex flex-col absolute bg-white mt-2 rounded-md shadow-lg" : "hidden"
           } md:flex md:items-center md:ml-4 mobile-menu`}
           style={{ top: "calc(100% + 0.5rem)", left: 0 }}
         >
+          <div className="fixed right-5 bg-white mt-2 rounded-md shadow-lg">
           <Link href="/">
             <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium text-center border-gray-100 border-b-2 mx-auto font-Montserrat ">
               Inicio
@@ -53,15 +62,7 @@ const Navbar = () => {
             </p>
           </Link>
         </div>
-      </div>
-      <div className="flex items-center">
-        <p>
-          <img
-            src="/images/logo-ns-simple-negro.png"
-            alt="Logo"
-            className="h-6 mr-2"
-          />
-        </p>
+        </div>
       </div>
     </nav>
   );
