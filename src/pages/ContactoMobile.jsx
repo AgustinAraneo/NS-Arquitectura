@@ -10,9 +10,11 @@ import Link from "next/link";
 const Contacto = () => {
   return (
     <div>
-      <Navbar />
+      <header className="fixed top-0 w-full z-10">
+            <Navbar />
+          </header>
       <ScrollButton />
-      <div className="w-full bg-white h-fit pt-[9rem]">
+      <div className="w-full bg-white h-fit pt-[5rem]">
         <h1 className="text-xl text-center text-black font-Montserrat fadeIn">
           Converti tu idea en una realidad... <br />
           <span className="pt-2 text-5xl font-bold text-center text-black font-Montserrat">
@@ -80,7 +82,7 @@ const Contacto = () => {
             </div>
             <div className="relative shadow-lg">
               <Link href='/ProyectosMobile/Abtao'>
-              <img className="w-full h-full object-cover " src="images/Abtao/Portada.jpg" alt="Imagen 3" />
+              <img className="w-full h-full object-cover " src="https://i.postimg.cc/0N474wqP/portada.jpg" alt="Imagen 3" />
               <div className="cursor-pointer absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-300 opacity-0 hover:bg-opacity-50 hover:opacity-100">
                 <p className="text-white text-2xl">Trabajo realizado en Abtao</p>
               </div>

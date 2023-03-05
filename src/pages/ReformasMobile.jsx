@@ -60,10 +60,12 @@ const proyectos = [
   const ReformasMobile = () => {
     return (
       <div>
-        <Navbar />
+        <header className="fixed top-0 w-full z-10">
+            <Navbar />
+          </header>
         <ScrollButton />
         <div>
-          <h3 className='w-[60%] mx-auto text-4xl pt-[10rem] mb-4 font-Montserrat font-medium text-center fadeIn'>Viviendas:</h3>
+          <h3 className='w-[60%] mx-auto text-4xl pt-[5rem] mb-4 font-Montserrat font-medium text-center fadeIn'>Viviendas:</h3>
           <div className="mx-auto grid grid-cols-1 gap-8 font-Montserrat w-[90%] fadeIn">
             {proyectos.map((image, index) => {
               return (

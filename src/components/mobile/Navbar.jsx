@@ -38,17 +38,17 @@ const Navbar = () => {
           style={{ top: "calc(100% + 0.5rem)", left: 0 }}
         >
           <Link href="/">
-            <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium text-center border-gray-100 border-b-2 mx-auto ">
+            <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium text-center border-gray-100 border-b-2 mx-auto font-Montserrat ">
               Inicio
             </p>
           </Link>
           <Link href="/ReformasMobile">
-            <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium border-gray-100 border-b-2 mx-auto">
+            <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium border-gray-100 border-b-2 mx-auto font-Montserrat">
               Proyectos
             </p>
           </Link>
           <Link href="/ContactoMobile">
-            <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium text-center">
+            <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium text-center font-Montserrat">
               Contacto
             </p>
           </Link>
