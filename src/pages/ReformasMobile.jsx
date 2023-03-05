@@ -64,7 +64,7 @@ const proyectos = [
         <ScrollButton />
         <div>
           <h3 className='w-[60%] mx-auto text-4xl pt-[10rem] mb-4 font-Montserrat font-medium text-center fadeIn'>Viviendas:</h3>
-          <div className="mx-auto grid grid-cols-1 gap-8 font-Montserrat w-[60%] fadeIn">
+          <div className="mx-auto grid grid-cols-1 gap-8 font-Montserrat w-[90%] fadeIn">
             {proyectos.map((image, index) => {
               return (
                 <div
@@ -92,8 +92,8 @@ const proyectos = [
           </div>
         </div>
         <div>
-        <h3 className='w-[60%] mx-auto text-4xl pt-[8rem] mb-4 font-Montserrat font-medium text-center fadeIn'>Locales:</h3>
-        <div className="mx-auto pb-10 grid grid-cols-1 gap-8 font-Montserrat w-[60%] fadeIn">
+        <h3 className='w-[60%] mx-auto text-4xl pt-[4rem] mb-4 font-Montserrat font-medium text-center fadeIn'>Locales:</h3>
+        <div className="mx-auto pb-10 grid grid-cols-1 gap-8 font-Montserrat w-[90%] fadeIn">
           {proyectosLocales.map((image, index) => {
             return (
               <div
