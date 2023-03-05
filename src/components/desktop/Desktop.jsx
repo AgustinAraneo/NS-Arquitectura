@@ -8,7 +8,7 @@ import ScrollButton from './ScrollButton'
 const Desktop = () => {
   return (
     <div className='relative'>
-      <div className='absolute top-0 left-0 w-full h-screen bg-home bg-cover bg-center z-10'>
+      <div className='absolute top-0 left-0 w-full h-[80vh] bg-homeDesktop bg-cover bg-center z-10 2xl:mt-[6%] xl:mt-[7%] sm:mt-[10%] mb-[6%]'>
         <div className='relative'>
           <Navbar style={{ zIndex: 20 }} />
           <ScrollButton />

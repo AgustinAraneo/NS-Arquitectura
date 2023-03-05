@@ -79,10 +79,12 @@ const Contacto = () => {
               </Link>
             </div>
             <div className="relative shadow-lg">
-              <img className="w-full h-full object-cover " src="https://i.postimg.cc/hP9q3QgR/contacto3.jpg" alt="Imagen 3" />
+              <Link href='/ProyectosMobile/Abtao'>
+              <img className="w-full h-full object-cover " src="images/Abtao/Portada.jpg" alt="Imagen 3" />
               <div className="cursor-pointer absolute inset-0 bg-gray-800 bg-opacity-0 flex items-center justify-center transition-all duration-300 opacity-0 hover:bg-opacity-50 hover:opacity-100">
-                <p className="text-white text-2xl">Render</p>
+                <p className="text-white text-2xl">Trabajo realizado en Abtao</p>
               </div>
+              </Link>
             </div>
           </div>
         </div>

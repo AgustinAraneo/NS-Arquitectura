@@ -10,6 +10,7 @@ const Osom = () => {
       <ScrollButton />
       <div className='pt-[10rem]'>
         <h1 className='text-center text-4xl font-Montserrat fadeIn font-base'>- Osom -</h1>
+        <p className='text-center fadeIn text-sm pt-4 w-[80%] mx-auto'>Ubicacion: Letras, Madrid - Tipo de reforma: Local - Fecha de realizacion: Diciembre 2022</p>
       </div>
       <div className='w-full h-full pb-10 pt-10 fadeIn'>
         <div className='w-[90%] mx-auto p-2'>

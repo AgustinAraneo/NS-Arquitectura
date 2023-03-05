@@ -9,7 +9,8 @@ module.exports = {
         'Montserrat Black': ['Montserrat Black']
       },
       backgroundImage: {
-        'home': "url('/images/home.jpg')",
+        'home': "url('/images/home2.jpg')",
+        'homeDesktop': "url('/images/home.jpg')",
       }
     },
   },

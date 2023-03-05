@@ -28,10 +28,10 @@ function ContactForm() {
   return (
     <div className="max-w-[72rem] mx-auto px-4 pt-10">
   <div className='flex mx-auto'>
-    <img src='images/fotoform.jpg' className='max-w-[32rem] h-full' />
-    <form onSubmit={sendEmail} className="ml-4 flex-auto p-4 bg-zinc-200 font-Montserrat">
+    <img src='images/F014/portadaForm.png' className='max-w-[32rem] h-[40Rrem]' />
+    <form onSubmit={sendEmail} className="ml-4 flex-auto p-4 font-Montserrat">
       <div className="mb-4">
-        <label htmlFor="name" className="block mb-2 font-medium text-center text-gray-700">Nombre</label>
+        <label htmlFor="name" className="block mb-2 font-medium text-gray-700">Nombre</label>
         <input
           type="text"
           name='name'
@@ -43,7 +43,7 @@ function ContactForm() {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="email" className="block mb-2 font-medium text-center text-gray-700">Correo electronico</label>
+        <label htmlFor="email" className="block mb-2 font-medium  text-gray-700">Correo electronico</label>
         <input
           type="email"
           name='email'
@@ -55,7 +55,7 @@ function ContactForm() {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="telefono" className="block mb-2 font-medium text-center text-gray-700">Telefono</label>
+        <label htmlFor="telefono" className="block mb-2 font-medium  text-gray-700">Telefono</label>
         <input
           type="text"
           name='telefono'
@@ -67,7 +67,7 @@ function ContactForm() {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="tipo" className="block mb-2 font-medium text-center text-gray-700">Tipo de reforma (Piso o Local)</label>
+        <label htmlFor="tipo" className="block mb-2 font-medium  text-gray-700">Tipo de reforma (Piso o Local)</label>
         <select
           name='tipo'
           id="tipo"
@@ -82,7 +82,7 @@ function ContactForm() {
         </select>
       </div>
       <div className="mb-4">
-        <label htmlFor="superficie" className="block mb-2 font-medium text-center text-gray-700">Superficie (m2)</label>
+        <label htmlFor="superficie" className="block mb-2 font-medium  text-gray-700">Superficie (m2)</label>
         <select
           name='superficie'
           id="superficie"
@@ -100,7 +100,7 @@ function ContactForm() {
         </select>
       </div>
       <div className="mb-4">
-        <label htmlFor="presupuesto" className="block mb-2 font-medium text-center text-gray-700">Presupuesto estimado</label>
+        <label htmlFor="presupuesto" className="block mb-2 font-medium  text-gray-700">Presupuesto estimado</label>
         <select
           name='presupuesto'
           id="presupuesto"
@@ -117,7 +117,7 @@ function ContactForm() {
         </select>
       </div>
       <div className="mb-4">
-        <label htmlFor="message" className="block mb-2 font-medium text-center text-gray-700">Tu mensaje</label>
+        <label htmlFor="message" className="block mb-2 font-medium  text-gray-700">Tu mensaje</label>
         <textarea
           name='message'
           id="message"

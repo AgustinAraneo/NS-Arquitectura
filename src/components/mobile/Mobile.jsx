@@ -10,7 +10,9 @@ const Mobile = () => {
     <div className='relative'>
       <div className='absolute top-0 left-0 w-full h-screen bg-home bg-cover bg-center z-10'>
         <div className='relative'>
-          <Navbar />
+          <header className="fixed top-0 w-full z-10">
+            <Navbar />
+          </header>
           <ScrollButton />
           <Home />
         </div>

@@ -10,6 +10,7 @@ const Ruiz = () => {
       <ScrollButton />
       <div className='pt-[10rem]'>
         <h1 className='text-center text-4xl font-Montserrat fadeIn font-base'>- RUIZ -</h1>
+        <p className='text-center fadeIn text-lg pt-4 w-[80%] mx-auto'>Ubicacion: Malasaña, Madrid - Tipo de reforma: Vivienda - Fecha de realizacion: Diciembre 2021</p>
       </div>
       <div className='w-full h-full pb-10 pt-10 fadeIn'>
         <div className='w-[60%] mx-auto p-2'>
