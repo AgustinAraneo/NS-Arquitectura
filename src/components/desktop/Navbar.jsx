@@ -30,16 +30,18 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className='mr-[2rem] text-[24px] font-Montserrat font-bold'>
-          <a href="#" className="inline-block mr-4 text-black transition duration-500 hover:scale-110">
+        <div className=' text-[24px] font-Montserrat font-bold'>
+          <a href="https://www.instagram.com/ns_reforma/" className="inline-block mr-4 text-black transition duration-500 hover:scale-110">
             <FaInstagram />
           </a>
-          <a href="#" className="inline-block mr-4 text-black transition duration-500 hover:scale-110">
+          <a href="https://wa.me/34617800682" className="inline-block mr-4 text-black transition duration-500 hover:scale-110">
             <FaWhatsapp />
           </a>
-          <a href="#" className="inline-block text-black transition duration-500 hover:scale-110">
+          <Link href="/Contacto">
+          <p className="inline-block text-black transition duration-500 hover:scale-110">
             <FiMail />
-          </a>
+          </p>
+          </Link>
         </div>
       </div>
     </nav>

@@ -139,3 +139,10 @@ body::-webkit-scrollbar-thumb:hover{
   opacity: 1;
 }
 
+
+.instagram-embed-container {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  display: block;
+}

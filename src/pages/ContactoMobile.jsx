@@ -45,7 +45,7 @@ const Contacto = () => {
             </a>
           </div>
           <div className="w-[100%] mx-auto hover:text-zinc-700 transition duration-500 hover:scale-105 pt-4">
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/34617800682" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="mx-auto" />
               <p className="pt-4 mx-auto text-sm text-center">
                 (+34) 617 800 682
@@ -53,7 +53,7 @@ const Contacto = () => {
             </a>
           </div>
           <div className="w-[100%] mx-auto hover:text-zinc-700 transition duration-500 hover:scale-105 pt-4">
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:arq.nschnaider@gmail.com" target="_blank" rel="noopener noreferrer">
               <FiMail className="mx-auto" />
               <p className="pt-4 mx-auto text-sm text-center">
                 arq.nschnaider@gmail.com

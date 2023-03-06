@@ -10,7 +10,7 @@ const Abtao = () => {
       <ScrollButton />
       <div className='pt-[10rem]'>
         <h1 className='text-center text-4xl font-Montserrat fadeIn font-base'>- Abtao -</h1>
-        <p className='text-center fadeIn text-lg pt-4 w-[80%] mx-auto'>Ubicacion: Pacifico, Madrid - Tipo de reforma: Vivienda - Fecha de realizacion: Septiembre 2022</p>
+        <p className='text-center fadeIn text-lg pt-4 w-[80%] mx-auto'>Pacifico, Madrid - Vivienda - Septiembre 2022</p>
       </div>
       <div className='w-full h-full pb-10 pt-10 fadeIn'>
         <div className='w-[60%] mx-auto p-2'>

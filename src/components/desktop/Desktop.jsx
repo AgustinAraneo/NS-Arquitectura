@@ -16,10 +16,10 @@ const Desktop = () => {
           <Home />
         </div>
       </div>
-      <div className='pt-[calc(100vh*0.90)] sm:pt-1/2'>
+      <div className='pt-[calc(100vh*0.90)] sm:pt-1/2 pb-28'>
         <Home2 />
-        <Slick />
       </div>
+        <Slick />
       <Footer />
     </div>
   )

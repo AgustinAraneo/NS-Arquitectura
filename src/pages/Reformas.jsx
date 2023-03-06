@@ -35,6 +35,7 @@ const proyectos = [
     fecha: 'Diciembre 2021',
     image: '/images/Ruiz/portada.jpg',
     url: '/Proyectos/Ruiz',
+    proyecto: '@BersStudio'
   },
   {
     name: 'Abtao',
@@ -43,6 +44,14 @@ const proyectos = [
     fecha: 'Septiembre 2022',
     image: '/images/Abtao/portada.jpg',
     url: '/Proyectos/Abtao',
+  },
+  {
+    name: 'Entenza',
+    ubicacion: "l'Eixample, Barcelona ",
+    tipo: 'Vivienda',
+    fecha: 'Septiembre 2022',
+    image: '/images/Entenza/portada.jpg',
+    url: '/Proyectos/Entenza',
   }
 ];
 
@@ -54,7 +63,16 @@ const proyectosLocales = [
     fecha: 'Diciembre 2022',
     image: '/images/Osom/portada.jpg',
     url: '/Proyectos/Osom',
+    proyecto: '@BersStudio'
   },
+  {
+    name: 'Ristretto',
+    ubicacion: 'Salamanca, Madrid',
+    tipo: 'Local',
+    fecha: 'Enero 2023',
+    image: '/images/Ristretto/portada.jpg',
+    url: '/Proyectos/Ristretto',
+  }
 ]
 
 const Reformas = () => {
@@ -63,7 +81,7 @@ const Reformas = () => {
       <Navbar />
       <ScrollButton />
       <div>
-        <h3 className='w-[60%] mx-auto text-4xl pt-[10rem] mb-4 font-Montserrat font-medium text-center fadeIn'>Viviendas:</h3>
+        <h3 className='w-[60%] mx-auto text-3xl pt-[8rem] mb-4 font-Montserrat font-medium fadeIn text-gray-400'>Viviendas:</h3>
         <div className="mx-auto grid grid-cols-3 max-2xl:grid-cols-2 gap-8 font-Montserrat w-[60%] fadeIn">
           {proyectos.map((image, index) => {
             return (
@@ -84,6 +102,7 @@ const Reformas = () => {
                     <p className="text-white text-lg">{image.ubicacion}</p>
                     <p className="text-white text-lg">{image.tipo}</p>
                     <p className="text-white text-lg">{image.fecha}</p>
+                    <p className="text-white text-lg">{image.proyecto}</p>
                   </div>
                 </Link>
               </div>
@@ -92,7 +111,7 @@ const Reformas = () => {
         </div>
       </div>
       <div>
-      <h3 className='w-[60%] mx-auto text-4xl pt-[8rem] mb-4 font-Montserrat font-medium text-center fadeIn'>Locales:</h3>
+      <h3 className='w-[60%] mx-auto text-3xl pt-[8rem] mb-4 font-Montserrat font-medium fadeIn text-gray-400'>Locales:</h3>
       <div className="mx-auto pb-10 grid grid-cols-3 max-2xl:grid-cols-2 gap-8 font-Montserrat w-[60%] fadeIn">
         {proyectosLocales.map((image, index) => {
           return (
@@ -113,6 +132,7 @@ const Reformas = () => {
                   <p className="text-white text-lg">{image.ubicacion}</p>
                   <p className="text-white text-lg">{image.tipo}</p>
                   <p className="text-white text-lg">{image.fecha}</p>
+                  <p className="text-white text-lg">{image.proyecto}</p>
                 </div>
               </Link>
             </div>
