@@ -9,14 +9,14 @@ const Osom = () => {
       <Navbar />
       <ScrollButton />
       <div className='pt-[10rem]'>
-        <h1 className='text-center text-4xl font-Montserrat fadeIn font-base'>- Osom -</h1>
-        <p className='text-center fadeIn text-lg pt-4 w-[80%] mx-auto'>Letras, Madrid - Local - Diciembre 2022 - @BersStudio</p>
+        <h1 className='text-4xl text-center font-Montserrat fadeIn font-base'>- Osom -</h1>
+        <p className='text-center fadeIn text-lg pt-4 w-[80%] mx-auto'>Local - Letras, Madrid - Diciembre 2022 - @BersStudio</p>
       </div>
-      <div className='w-full h-full pb-10 pt-10 fadeIn'>
+      <div className='w-full h-full pt-10 pb-10 fadeIn'>
         <div className='w-[60%] mx-auto p-2'>
           <img src='/images/Osom/1.jpg' />
         </div>
-        <div className='flex grid-cols-2 justify-center w-full'>
+        <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Osom/2.jpg' className='w-[30%] p-2'/>
           <img src='/images/Osom/3.jpg' className='w-[30%] p-2'/>
         </div>
@@ -26,11 +26,11 @@ const Osom = () => {
         <div className='w-[60%] mx-auto p-2'>
           <img src='/images/Osom/5.jpg' />
         </div>
-        <div className='flex grid-cols-2 justify-center w-full'>
+        <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Osom/16.jpg' className='w-[30%] p-2'/>
           <img src='/images/Osom/7.jpg' className='w-[30%] p-2'/>
         </div>
-        <div className='flex grid-cols-2 justify-center w-full'>
+        <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Osom/8.jpg' className='w-[30%] p-2'/>
           <img src='/images/Osom/9.jpg' className='w-[30%] p-2'/>
         </div>
@@ -40,7 +40,7 @@ const Osom = () => {
         <div className='w-[60%] mx-auto p-2'>
           <img src='/images/Osom/11.jpg' />
         </div>
-        <div className='flex grid-cols-2 justify-center w-full'>
+        <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Osom/10.jpg' className='w-[30%] p-2'/>
           <img src='/images/Osom/13.jpg' className='w-[30%] p-2'/>
         </div>

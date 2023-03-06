@@ -78,12 +78,12 @@ const proyectos = [
   const ReformasMobile = () => {
     return (
       <div>
-        <header className="fixed top-0 w-full z-10">
+        <header className="fixed top-0 z-10 w-full">
             <Navbar />
           </header>
         <ScrollButton />
         <div>
-          <h3 className='w-[60%] mx-auto text-3xl pt-[5rem] mb-4 font-Montserrat font-medium text-gray-400 fadeIn text-center'>Viviendas:</h3>
+          <h3 className='w-[60%] mx-auto text-2xl pt-[5rem] mb-4 font-Montserrat font-medium text-gray-400 fadeIn text-center'>Viviendas</h3>
           <div className="mx-auto grid grid-cols-1 gap-8 font-Montserrat w-[90%] fadeIn">
             {proyectos.map((image, index) => {
               return (
@@ -99,12 +99,12 @@ const proyectos = [
                       width={1200}
                       height={1200}
                     />
-                    <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100 transition-all duration-500">
-                      <h3 className="text-white text-2xl font-bold">{image.name}</h3>
-                      <p className="text-white text-lg">{image.ubicacion}</p>
-                      <p className="text-white text-lg">{image.tipo}</p>
-                      <p className="text-white text-lg">{image.fecha}</p>
-                      <p className="text-white text-lg">{image.proyecto}</p>
+                    <div className="absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100">
+                      <h3 className="text-2xl font-bold text-white">{image.name}</h3>
+                      <p className="text-lg text-white">{image.tipo}</p>
+                      <p className="text-lg text-white">{image.ubicacion}</p>
+                      <p className="text-lg text-white">{image.fecha}</p>
+                      <p className="text-lg text-white">{image.proyecto}</p>
                     </div>
                   </Link>
                 </div>
@@ -113,7 +113,7 @@ const proyectos = [
           </div>
         </div>
         <div>
-        <h3 className='w-[60%] mx-auto text-3xl pt-[4rem] mb-4 font-Montserrat font-medium text-gray-400 fadeIn text-center'>Locales:</h3>
+        <h3 className='w-[60%] mx-auto text-2xl pt-[4rem] mb-4 font-Montserrat font-medium text-gray-400 fadeIn text-center'>Locales</h3>
         <div className="mx-auto pb-10 grid grid-cols-1 gap-8 font-Montserrat w-[90%] fadeIn">
           {proyectosLocales.map((image, index) => {
             return (
@@ -129,12 +129,12 @@ const proyectos = [
                     width={1200}
                     height={1200}
                   />
-                  <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100 transition-all duration-500">
-                    <h3 className="text-white text-2xl font-bold">{image.name}</h3>
-                    <p className="text-white text-lg">{image.ubicacion}</p>
-                    <p className="text-white text-lg">{image.tipo}</p>
-                    <p className="text-white text-lg">{image.fecha}</p>
-                    <p className="text-white text-lg">{image.proyecto}</p>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100">
+                    <h3 className="text-2xl font-bold text-white">{image.name}</h3>
+                    <p className="text-lg text-white">{image.tipo}</p>
+                    <p className="text-lg text-white">{image.ubicacion}</p>
+                    <p className="text-lg text-white">{image.fecha}</p>
+                    <p className="text-lg text-white">{image.proyecto}</p>
                   </div>
                 </Link>
               </div>

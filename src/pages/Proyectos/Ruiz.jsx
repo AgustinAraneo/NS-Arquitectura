@@ -9,14 +9,14 @@ const Ruiz = () => {
       <Navbar />
       <ScrollButton />
       <div className='pt-[10rem]'>
-        <h1 className='text-center text-4xl font-Montserrat fadeIn font-base'>- RUIZ -</h1>
-        <p className='text-center fadeIn text-lg pt-4 w-[80%] mx-auto'>Malasaña, Madrid - Vivienda - Diciembre 2021 - @BersStudio</p>
+        <h1 className='text-4xl text-center font-Montserrat fadeIn font-base'>- RUIZ -</h1>
+        <p className='text-center fadeIn text-lg pt-4 w-[80%] mx-auto'>Vivienda - Malasaña, Madrid - Diciembre 2021 - @BersStudio</p>
       </div>
-      <div className='w-full h-full pb-10 pt-10 fadeIn'>
+      <div className='w-full h-full pt-10 pb-10 fadeIn'>
         <div className='w-[60%] mx-auto p-2'>
           <img src='/images/Ruiz/1.jpg' />
         </div>
-        <div className='flex grid-cols-2 justify-center w-full'>
+        <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Ruiz/2.jpg' className='w-[30%] p-2'/>
           <img src='/images/Ruiz/3.jpg' className='w-[30%] p-2'/>
         </div>
@@ -26,11 +26,11 @@ const Ruiz = () => {
         <div className='w-[60%] mx-auto p-2'>
           <img src='/images/Ruiz/5.jpg' />
         </div>
-        <div className='flex grid-cols-2 justify-center w-full'>
+        <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Ruiz/6.jpg' className='w-[30%] p-2'/>
           <img src='/images/Ruiz/15.jpg' className='w-[30%] p-2'/>
         </div>
-        <div className='flex grid-cols-2 justify-center w-full'>
+        <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Ruiz/8.jpg' className='w-[30%] p-2'/>
           <img src='/images/Ruiz/9.jpg' className='w-[30%] p-2'/>
         </div>
@@ -40,7 +40,7 @@ const Ruiz = () => {
         <div className='w-[60%] mx-auto p-2'>
           <img src='/images/Ruiz/11.jpg' />
         </div>
-        <div className='flex grid-cols-2 justify-center w-full'>
+        <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Ruiz/12.jpg' className='w-[30%] p-2'/>
           <img src='/images/Ruiz/13.jpg' className='w-[30%] p-2'/>
         </div>
