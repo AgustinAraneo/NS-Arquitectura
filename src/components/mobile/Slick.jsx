@@ -47,7 +47,7 @@ export default class Responsive extends Component {
         </h1>
         <Slider {...settings} className="mx-8">
           <div className="relative">
-            <Link href="/Proyectos/Osom">
+            <Link href="/ProyectosMobile/Osom">
               <div className="w-full h-[22rem] flex items-center justify-center select-none">
                 <img
                   src="https://i.postimg.cc/YCjrRp1B/portada.jpg"
@@ -69,7 +69,7 @@ export default class Responsive extends Component {
           </div>
 
           <div className="relative">
-            <Link href="/Proyectos/Ristretto">
+            <Link href="/ProyectosMobile/Ristretto">
               <div className="w-full h-[22rem] flex items-center justify-center">
                 <img
                   src="https://i.postimg.cc/HkzNXcNQ/portada.jpg"
@@ -78,19 +78,19 @@ export default class Responsive extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-xl font-bold text-white">
-                    Trabajo realizado en Ristretto
-                  </p>
-                  <p className="text-lg text-center text-white">Local</p>
-                  <p className="text-lg text-center text-white">Salamanca, Madrid</p>
-                  <p className="text-lg text-center text-white">Enero 2023</p>
+                    <p className="text-xl font-bold text-white">
+                      Trabajo realizado en Ristretto
+                    </p>
+                    <p className="text-lg text-center text-white">Local</p>
+                    <p className="text-lg text-center text-white">Salamanca, Madrid</p>
+                    <p className="text-lg text-center text-white">Enero 2023</p>
                   </div>
                 </div>
               </div>
             </Link>
           </div>
           <div className="relative">
-            <Link href="/Proyectos/Ruiz">
+            <Link href="/ProyectosMobile/Ruiz">
               <div className="w-full h-[22rem] flex items-center justify-center">
                 <img
                   src="https://i.postimg.cc/TPDR8C7k/portada.jpg"
@@ -99,19 +99,19 @@ export default class Responsive extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-xl font-bold text-white">
-                    Trabajo realizado en Ruiz
-                  </p>
-                  <p className="text-lg text-center text-white">Vivienda</p>
-                  <p className="text-lg text-center text-white">Malasaña, Madrid</p>
-                  <p className="text-lg text-center text-white">Diciembre 2021</p>
+                    <p className="text-xl font-bold text-white">
+                      Trabajo realizado en Ruiz
+                    </p>
+                    <p className="text-lg text-center text-white">Vivienda</p>
+                    <p className="text-lg text-center text-white">Malasaña, Madrid</p>
+                    <p className="text-lg text-center text-white">Diciembre 2021</p>
                   </div>
                 </div>
               </div>
             </Link>
           </div>
           <div className="relative">
-            <Link href="/Proyectos/Abtao">
+            <Link href="/ProyectosMobile/Abtao">
               <div className="w-full h-[22rem] flex items-center justify-center ">
                 <img
                   src="https://i.postimg.cc/zf3J4rZR/portada.jpg"
@@ -120,19 +120,19 @@ export default class Responsive extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-xl font-bold text-white">
-                    Trabajo realizado en Abtao
-                  </p>
-                  <p className="text-lg text-center text-white">Vivienda</p>
-                  <p className="text-lg text-center text-white">Pacifico, Madrid</p>
-                  <p className="text-lg text-center text-white">Septiembre 2022</p>
+                    <p className="text-xl font-bold text-white">
+                      Trabajo realizado en Abtao
+                    </p>
+                    <p className="text-lg text-center text-white">Vivienda</p>
+                    <p className="text-lg text-center text-white">Pacifico, Madrid</p>
+                    <p className="text-lg text-center text-white">Septiembre 2022</p>
                   </div>
                 </div>
               </div>
             </Link>
           </div>
           <div className="relative">
-            <Link href="/Proyectos/Entenza">
+            <Link href="/ProyectosMobile/Entenza">
               <div className="w-full h-[22rem] flex items-center justify-center">
                 <img
                   src="https://i.postimg.cc/J0sYWp7x/portada.jpg"
@@ -141,19 +141,19 @@ export default class Responsive extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-xl font-bold text-white">
-                    Trabajo realizado en Entenza
-                  </p>
-                  <p className="text-lg text-center text-white">Vivienda</p>
-                  <p className="text-lg text-center text-white">l Eixample, Barcelona</p>
-                  <p className="text-lg text-center text-white">Septiembre 2022</p>
+                    <p className="text-xl font-bold text-white">
+                      Trabajo realizado en Entenza
+                    </p>
+                    <p className="text-lg text-center text-white">Vivienda</p>
+                    <p className="text-lg text-center text-white">l Eixample, Barcelona</p>
+                    <p className="text-lg text-center text-white">Septiembre 2022</p>
                   </div>
                 </div>
               </div>
             </Link>
           </div>
           <div className="relative">
-            <Link href="/Proyectos/Hilario">
+            <Link href="/ProyectosMobile/Hilario">
               <div className="w-full h-[22rem] flex items-center justify-center">
                 <img
                   src="https://i.postimg.cc/yxB6ycTL/portada.jpg"
@@ -162,19 +162,19 @@ export default class Responsive extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-xl font-bold text-white">
-                    Trabajo realizado en Hilario
-                  </p>
-                  <p className="text-lg text-center text-white">Vivienda</p>
-                  <p className="text-lg text-center text-white">Lucero, Madrid</p>
-                  <p className="text-lg text-center text-white">Agosto 2022</p>
+                    <p className="text-xl font-bold text-white">
+                      Trabajo realizado en Hilario
+                    </p>
+                    <p className="text-lg text-center text-white">Vivienda</p>
+                    <p className="text-lg text-center text-white">Lucero, Madrid</p>
+                    <p className="text-lg text-center text-white">Agosto 2022</p>
                   </div>
                 </div>
               </div>
             </Link>
           </div>
           <div className="relative">
-            <Link href="/Proyectos/Margallo">
+            <Link href="/ProyectosMobile/Margallo">
               <div className="w-full h-[22rem] flex items-center justify-center">
                 <img
                   src="https://i.postimg.cc/c4x4K7CH/portada.jpg"
@@ -183,12 +183,12 @@ export default class Responsive extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-xl font-bold text-white">
-                    Trabajo realizado en Margallo
-                  </p>
-                  <p className="text-lg text-center text-white">Vivienda</p>
-                  <p className="text-lg text-center text-white">Tetúan, Madrid</p>
-                  <p className="text-lg text-center text-white">Abril 2022</p>
+                    <p className="text-xl font-bold text-white">
+                      Trabajo realizado en Margallo
+                    </p>
+                    <p className="text-lg text-center text-white">Vivienda</p>
+                    <p className="text-lg text-center text-white">Tetúan, Madrid</p>
+                    <p className="text-lg text-center text-white">Abril 2022</p>
                   </div>
                 </div>
               </div>
