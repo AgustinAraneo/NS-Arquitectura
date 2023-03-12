@@ -30,7 +30,7 @@ export default class Slick extends Component {
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
                     <p className="text-2xl font-bold text-white">
-                      Trabajo realizado en Osom
+                      Trabajo realizado en Osom Cantine
                     </p>
                     <p className="text-xl text-center text-white">Local</p>
                     <p className="text-xl text-center text-white">Letras, Madrid</p>
@@ -51,12 +51,12 @@ export default class Slick extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-2xl font-bold text-white">
-                    Trabajo realizado en Ristretto
-                  </p>
-                  <p className="text-xl text-center text-white">Local</p>
-                  <p className="text-xl text-center text-white">Salamanca, Madrid</p>
-                  <p className="text-xl text-center text-white">Enero 2023</p>
+                    <p className="text-2xl font-bold text-white">
+                      Trabajo realizado en Black Ristretto
+                    </p>
+                    <p className="text-xl text-center text-white">Local</p>
+                    <p className="text-xl text-center text-white">Salamanca, Madrid</p>
+                    <p className="text-xl text-center text-white">Enero 2023</p>
                   </div>
                 </div>
               </div>
@@ -72,12 +72,12 @@ export default class Slick extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-2xl font-bold text-white">
-                    Trabajo realizado en Ruiz
-                  </p>
-                  <p className="text-xl text-center text-white">Vivienda</p>
-                  <p className="text-xl text-center text-white">Malasaña, Madrid</p>
-                  <p className="text-xl text-center text-white">Diciembre 2021</p>
+                    <p className="text-2xl font-bold text-white">
+                      Trabajo realizado en Ruiz
+                    </p>
+                    <p className="text-xl text-center text-white">Vivienda</p>
+                    <p className="text-xl text-center text-white">Malasaña, Madrid</p>
+                    <p className="text-xl text-center text-white">Diciembre 2021</p>
                   </div>
                 </div>
               </div>
@@ -93,12 +93,12 @@ export default class Slick extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-2xl font-bold text-white">
-                    Trabajo realizado en Abtao
-                  </p>
-                  <p className="text-xl text-center text-white">Vivienda</p>
-                  <p className="text-xl text-center text-white">Pacifico, Madrid</p>
-                  <p className="text-xl text-center text-white">Septiembre 2022</p>
+                    <p className="text-2xl font-bold text-white">
+                      Trabajo realizado en Abtao
+                    </p>
+                    <p className="text-xl text-center text-white">Vivienda</p>
+                    <p className="text-xl text-center text-white">Pacifico, Madrid</p>
+                    <p className="text-xl text-center text-white">Septiembre 2022</p>
                   </div>
                 </div>
               </div>
@@ -114,12 +114,12 @@ export default class Slick extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-2xl font-bold text-white">
-                    Trabajo realizado en Entenza
-                  </p>
-                  <p className="text-xl text-center text-white">Vivienda</p>
-                  <p className="text-xl text-center text-white">l Eixample, Barcelona</p>
-                  <p className="text-xl text-center text-white">Septiembre 2022</p>
+                    <p className="text-2xl font-bold text-white">
+                      Trabajo realizado en Entenza
+                    </p>
+                    <p className="text-xl text-center text-white">Vivienda</p>
+                    <p className="text-xl text-center text-white">l Eixample, Barcelona</p>
+                    <p className="text-xl text-center text-white">Septiembre 2022</p>
                   </div>
                 </div>
               </div>
@@ -135,12 +135,12 @@ export default class Slick extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-2xl font-bold text-white">
-                    Trabajo realizado en Hilario
-                  </p>
-                  <p className="text-xl text-center text-white">Vivienda</p>
-                  <p className="text-xl text-center text-white">Lucero, Madrid</p>
-                  <p className="text-xl text-center text-white">Agosto 2022</p>
+                    <p className="text-2xl font-bold text-white">
+                      Trabajo realizado en Hilario
+                    </p>
+                    <p className="text-xl text-center text-white">Vivienda</p>
+                    <p className="text-xl text-center text-white">Lucero, Madrid</p>
+                    <p className="text-xl text-center text-white">Agosto 2022</p>
                   </div>
                 </div>
               </div>
@@ -156,12 +156,12 @@ export default class Slick extends Component {
                 />
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
-                  <p className="text-2xl font-bold text-white">
-                    Trabajo realizado en Margallo
-                  </p>
-                  <p className="text-xl text-center text-white">Vivienda</p>
-                  <p className="text-xl text-center text-white">Tetúan, Madrid</p>
-                  <p className="text-xl text-center text-white">Abril 2022</p>
+                    <p className="text-2xl font-bold text-white">
+                      Trabajo realizado en Margallo
+                    </p>
+                    <p className="text-xl text-center text-white">Vivienda</p>
+                    <p className="text-xl text-center text-white">Tetúan, Madrid</p>
+                    <p className="text-xl text-center text-white">Abril 2022</p>
                   </div>
                 </div>
               </div>

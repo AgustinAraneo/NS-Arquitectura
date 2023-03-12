@@ -57,7 +57,7 @@ export default class Responsive extends Component {
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
                     <p className="text-xl font-bold text-white">
-                      Trabajo realizado en Osom
+                      Trabajo realizado en Osom Cantine
                     </p>
                     <p className="text-lg text-center text-white">Local</p>
                     <p className="text-lg text-center text-white">Letras, Madrid</p>
@@ -79,7 +79,7 @@ export default class Responsive extends Component {
                 <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 bg-gray-800 bg-opacity-0 opacity-0 cursor-pointer hover:bg-opacity-50 hover:opacity-100">
                   <div className="flex flex-col">
                     <p className="text-xl font-bold text-white">
-                      Trabajo realizado en Ristretto
+                      Trabajo realizado en Black Ristretto
                     </p>
                     <p className="text-lg text-center text-white">Local</p>
                     <p className="text-lg text-center text-white">Salamanca, Madrid</p>

@@ -35,7 +35,7 @@ const proyectos = [
     fecha: 'Diciembre 2021',
     image: '/images/Ruiz/portada.jpg',
     url: '/Proyectos/Ruiz',
-    proyecto: '@BersStudio'
+    proyecto: 'Proyecto: BersStudio'
   },
   {
     name: 'Abtao',
@@ -57,16 +57,16 @@ const proyectos = [
 
 const proyectosLocales = [
   {
-    name: 'Osom',
+    name: 'Osom Cantine',
     ubicacion: 'Letras, Madrid',
     tipo: 'Local',
     fecha: 'Diciembre 2022',
     image: '/images/Osom/portada.jpg',
     url: '/Proyectos/Osom',
-    proyecto: '@BersStudio'
+    proyecto: 'Proyecto: BersStudio'
   },
   {
-    name: 'Ristretto',
+    name: 'Black Ristretto',
     ubicacion: 'Salamanca, Madrid',
     tipo: 'Local',
     fecha: 'Enero 2023',
@@ -111,34 +111,34 @@ const Reformas = () => {
         </div>
       </div>
       <div>
-      <h3 className='w-[60%] mx-auto text-2xl pt-[8rem] mb-4 font-Montserrat font-medium fadeIn text-gray-400'>Locales</h3>
-      <div className="mx-auto pb-10 grid grid-cols-3 max-2xl:grid-cols-2 gap-8 font-Montserrat w-[60%] fadeIn">
-        {proyectosLocales.map((image, index) => {
-          return (
-            <div
-              className="relative w-full h-[30rem] cursor-pointer hover:opacity-75"
-              key={image.name}
-            >
-              <Link href={image.url} >
-                <Image
-                  className="object-cover w-full h-full"
-                  src={image.image}
-                  alt={image.ubicacion}
-                  width={1200}
-                  height={1200}
-                />
-                <div className="absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100">
-                  <h3 className="text-2xl font-bold text-white">{image.name}</h3>
-                  <p className="text-lg text-white">{image.tipo}</p>
-                  <p className="text-lg text-white">{image.ubicacion}</p>
-                  <p className="text-lg text-white">{image.fecha}</p>
-                  <p className="text-lg text-white">{image.proyecto}</p>
-                </div>
-              </Link>
-            </div>
-          );
-        })}
-      </div>
+        <h3 className='w-[60%] mx-auto text-2xl pt-[8rem] mb-4 font-Montserrat font-medium fadeIn text-gray-400'>Locales</h3>
+        <div className="mx-auto pb-10 grid grid-cols-3 max-2xl:grid-cols-2 gap-8 font-Montserrat w-[60%] fadeIn">
+          {proyectosLocales.map((image, index) => {
+            return (
+              <div
+                className="relative w-full h-[30rem] cursor-pointer hover:opacity-75"
+                key={image.name}
+              >
+                <Link href={image.url} >
+                  <Image
+                    className="object-cover w-full h-full"
+                    src={image.image}
+                    alt={image.ubicacion}
+                    width={1200}
+                    height={1200}
+                  />
+                  <div className="absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100">
+                    <h3 className="text-2xl font-bold text-white">{image.name}</h3>
+                    <p className="text-lg text-white">{image.tipo}</p>
+                    <p className="text-lg text-white">{image.ubicacion}</p>
+                    <p className="text-lg text-white">{image.fecha}</p>
+                    <p className="text-lg text-white">{image.proyecto}</p>
+                  </div>
+                </Link>
+              </div>
+            );
+          })}
+        </div>
       </div>
       <Footer />
     </div>

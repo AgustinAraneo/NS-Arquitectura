@@ -41,17 +41,11 @@ const Home2 = () => {
                 </div>
             </div>
             <div className="w-full h-[25rem] relative">
-                <Link href="/ReformasMobile">
-                    <img
-                        className="w-full h-full object-cover"
-                        src="https://i.postimg.cc/Zqw4Tvrg/principal.png"
-                        alt="Proyecto"
-                    />
-                    <div className="absolute inset-0 bg-gray-600/40 bg-opacity-50 flex items-center justify-center">
-
-                        <p className="text-white font-bold text-4xl font-Montserrat text-center mb-48">Ve nuestros<br /> proyectos</p>
-                    </div>
-                </Link>
+                <img
+                    className="w-full h-full object-cover"
+                    src="https://i.postimg.cc/Zqw4Tvrg/principal.png"
+                    alt="Proyecto"
+                />
             </div>
         </div>
     )
