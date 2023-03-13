@@ -41,7 +41,7 @@ const Margallo = () => {
       </div>
       <div className="flex justify-center">
         <div className="w-[45%] h-[50%] pr-2">
-          <div className='w-full h-full mx-auto relative'>
+          <div className='relative w-full h-full mx-auto'>
             <img src='/images/Hilario/portada.jpg' className='mx-auto' />
             <div className='absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100'>
               <p className='text-lg font-bold text-white'>Hilario</p>
@@ -50,17 +50,17 @@ const Margallo = () => {
               <p className='text-base text-white'>Agosto 2022</p>
             </div>
           </div>
-          <div className='flex flex-auto justify-center font-Montserrat pt-2 pb-10'>
+          <div className='flex justify-center flex-auto pt-2 pb-10 font-Montserrat'>
             <Link href="/ProyectosMobile/Hilario">
-              <div className='flex flex-auto items-center bg-black/80 hover:bg-black/60 rounded-full px-1 py-1 transition duration-300'>
+              <div className='flex items-center flex-auto px-1 py-1 transition duration-300 rounded-full bg-black/80 hover:bg-black/60'>
                 <AiOutlineArrowLeft className='text-white' />
                 <p className='pl-1 text-white text-[12px]'>Anterior proyecto</p>
               </div>
             </Link>
           </div>
         </div>
-        <div className="w-[45%] h-[50%] pl-2">
-          <div className='w-full h-full mx-auto relative'>
+        <div className="w-[45%] h-[50%] pl-2 fadeIn">
+          <div className='relative w-full h-full mx-auto'>
             <img src='/images/Ruiz/portada.jpg' className='mx-auto' />
             <div className='absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100'>
               <p className='text-lg font-bold text-white'>Ruiz</p>
@@ -70,9 +70,9 @@ const Margallo = () => {
               <p className='text-base text-white'>Proyecto: BersStudio</p>
             </div>
           </div>
-          <div className='flex flex-auto justify-center font-Montserrat pt-2 pb-10'>
+          <div className='flex justify-center flex-auto pt-2 pb-10 font-Montserrat fadeIn'>
             <Link href="/ProyectosMobile/Ruiz">
-              <div className='flex flex-auto items-center bg-black/80 hover:bg-black/60 rounded-full px-1 py-1 transition duration-300'>
+              <div className='flex items-center flex-auto px-1 py-1 transition duration-300 rounded-full bg-black/80 hover:bg-black/60'>
                 <p className='pr-1 text-white text-[12px]'>Siguiente proyecto</p>
                 <AiOutlineArrowRight className='text-white' />
               </div>

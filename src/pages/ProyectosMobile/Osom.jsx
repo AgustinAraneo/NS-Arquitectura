@@ -53,7 +53,7 @@ const Osom = () => {
           <img src='/images/Osom/15.jpg' />
         </div>
       </div>
-      <div className='w-[45%] h-[50%] mx-auto relative'>
+      <div className='w-[45%] h-[50%] mx-auto relative fadeIn'>
         <img src='/images/Ristretto/portada.jpg' className='mx-auto' />
         <div className='absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100'>
           <p className='text-lg font-bold text-white'>Black Ristretto</p>
@@ -62,9 +62,9 @@ const Osom = () => {
           <p className='text-base text-white'>Enero 2023</p>
         </div>
       </div>
-      <div className='flex flex-auto justify-center font-Montserrat pt-2 pb-10'>
+      <div className='flex justify-center flex-auto pt-2 pb-10 font-Montserrat fadeIn'>
         <Link href="/ProyectosMobile/Ristretto">
-          <div className='flex flex-auto items-center bg-black/80 hover:bg-black/60 rounded-full px-1 py-1 transition duration-300'>
+          <div className='flex items-center flex-auto px-1 py-1 transition duration-300 rounded-full bg-black/80 hover:bg-black/60'>
             <p className='pr-2 text-white text-[12px]'>Siguiente proyecto</p>
             <AiOutlineArrowRight className='text-white' />
           </div>

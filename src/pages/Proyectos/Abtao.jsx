@@ -33,9 +33,9 @@ const Abtao = () => {
           <img src='/images/Abtao/5.jpg' />
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center fadeIn">
         <div className="w-[17.5%] h-[17.5%] pr-4">
-          <div className='w-full h-full mx-auto relative'>
+          <div className='relative w-full h-full mx-auto'>
             <img src='/images/Ruiz/portada.jpg' className='mx-auto' />
             <div className='absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100'>
               <p className='text-2xl font-bold text-white'>Ruiz</p>
@@ -45,9 +45,9 @@ const Abtao = () => {
               <p className='text-lg text-white'>Proyecto: BersStudio</p>
             </div>
           </div>
-          <div className='flex flex-auto justify-center font-Montserrat pt-2 pb-10'>
+          <div className='flex justify-center flex-auto pt-2 pb-10 font-Montserrat'>
             <Link href="/Proyectos/Ruiz">
-              <div className='flex flex-auto items-center bg-black/80 hover:bg-black/60 rounded-full px-2 py-2 transition duration-300'>
+              <div className='flex items-center flex-auto px-2 py-2 transition duration-300 rounded-full bg-black/80 hover:bg-black/60'>
                 <AiOutlineArrowLeft className='text-white' />
                 <p className='pl-2 text-white'>Anterior proyecto</p>
               </div>
@@ -55,8 +55,8 @@ const Abtao = () => {
           </div>
         </div>
         <div className="w-[17.5%] h-[17.5%] pl-4">
-          <div className='w-full h-full mx-auto relative'>
-            <img src='/images/Entenza/portada2.jpg' className='mx-auto' />
+          <div className='relative w-full h-full mx-auto'>
+            <img src='/images/Entenza/Portada2.jpg' className='mx-auto' />
             <div className='absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100'>
               <p className='text-2xl font-bold text-white'>Entenza</p>
               <p className='text-lg text-white'>Vivienda</p>
@@ -64,9 +64,9 @@ const Abtao = () => {
               <p className='text-lg text-white'>Septiembre 2022</p>
             </div>
           </div>
-          <div className='flex flex-auto justify-center font-Montserrat pt-2 pb-10'>
+          <div className='flex justify-center flex-auto pt-2 pb-10 font-Montserrat'>
             <Link href="/Proyectos/Entenza">
-              <div className='flex flex-auto items-center bg-black/80 hover:bg-black/60 rounded-full px-2 py-2 transition duration-300'>
+              <div className='flex items-center flex-auto px-2 py-2 transition duration-300 rounded-full bg-black/80 hover:bg-black/60'>
                 <p className='pr-2 text-white'>Siguiente proyecto</p>
                 <AiOutlineArrowRight className='text-white' />
               </div>

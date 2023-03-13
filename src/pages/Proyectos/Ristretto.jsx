@@ -33,8 +33,8 @@ const Ristretto = () => {
           <img src='/images/Ristretto/1.jpg' />
         </div>
       </div>
-      <div className='w-[17.5%] h-[17.5%] mx-auto relative'>
-        <img src='/images/Osom/Portada.jpg' className='mx-auto' />
+      <div className='w-[17.5%] h-[17.5%] mx-auto relative fadeIn'>
+        <img src='/images/Osom/portada.jpg' className='mx-auto' />
         <div className='absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100'>
           <p className='text-2xl font-bold text-white'>Osom Cantine</p>
           <p className='text-lg text-white'>Local</p>
@@ -43,9 +43,9 @@ const Ristretto = () => {
           <p className='text-lg text-white'>Proyecto: BersStudio</p>
         </div>
       </div>
-      <div className='flex flex-auto justify-center font-Montserrat pt-2 pb-10'>
+      <div className='flex justify-center flex-auto pt-2 pb-10 font-Montserrat fadeIn'>
         <Link href="/Proyectos/Osom">
-          <div className='flex flex-auto items-center bg-black/80 hover:bg-black/60 rounded-full px-2 py-2 transition duration-300'>
+          <div className='flex items-center flex-auto px-2 py-2 transition duration-300 rounded-full bg-black/80 hover:bg-black/60'>
             <AiOutlineArrowLeft className='text-white' />
             <p className='pl-2 text-white'>Anterior proyecto</p>
           </div>
