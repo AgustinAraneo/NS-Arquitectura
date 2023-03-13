@@ -19,7 +19,9 @@ const Desktop = () => {
       <div className='pt-[calc(100vh*0.90)] sm:pt-1/2 pb-10'>
         <Home2 />
       </div>
-      <Slick />
+      <div className='pb-10'>
+        <Slick />
+      </div>
       <Footer />
     </div>
   )

@@ -18,10 +18,12 @@ const Mobile = () => {
           <Home />
         </div>
       </div>
-      <div className='pt-[calc(100vh*1)] sm:pt-1/2 pb-28'>
+      <div className='pt-[calc(100vh*1)] sm:pt-1/2 pb-20'>
         <Home2 />
       </div>
-      <Responsive />
+      <div className='pb-20'>
+        <Responsive />
+      </div>
       <Footer />
     </div>
   )

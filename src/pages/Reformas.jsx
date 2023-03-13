@@ -35,7 +35,7 @@ const proyectos = [
     fecha: 'Diciembre 2021',
     image: '/images/Ruiz/portada.jpg',
     url: '/Proyectos/Ruiz',
-    proyecto: 'Proyecto: BersStudio'
+    proyecto: 'Proyecto: BerdStudio'
   },
   {
     name: 'Abtao',
@@ -63,7 +63,7 @@ const proyectosLocales = [
     fecha: 'Diciembre 2022',
     image: '/images/Osom/portada.jpg',
     url: '/Proyectos/Osom',
-    proyecto: 'Proyecto: BersStudio'
+    proyecto: 'Proyecto: BerdStudio'
   },
   {
     name: 'Black Ristretto',

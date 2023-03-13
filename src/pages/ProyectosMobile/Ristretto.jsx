@@ -16,21 +16,22 @@ const Ristretto = () => {
       </div>
       <div className='w-full h-full pt-10 pb-10 fadeIn'>
         <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Ristretto/2.jpg' />
+          <img src='/images/Ristretto/1.jpg' />
         </div>
         <div className='flex justify-center w-full grid-cols-2'>
-          <img src='/images/Ristretto/4.jpg' className='w-[45%] p-2' />
+          <img src='/images/Ristretto/2.jpg' className='w-[45%] p-2' />
           <img src='/images/Ristretto/3.jpg' className='w-[45%] p-2' />
         </div>
         <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Ristretto/5.jpg' />
+          <img src='/images/Ristretto/4.jpg' />
         </div>
         <div className='flex justify-center w-full grid-cols-2'>
+          <img src='/images/Ristretto/5.jpg' className='w-[45%] p-2' />
           <img src='/images/Ristretto/6.jpg' className='w-[45%] p-2' />
-          <img src='/images/Ristretto/7.jpg' className='w-[45%] p-2' />
         </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Ristretto/1.jpg' />
+        <div className='flex justify-center w-full grid-cols-2'>
+          <img src='/images/Ristretto/7.jpg' className='w-[45%] p-2' />
+          <img src='/images/Ristretto/8.jpg' className='w-[45%] p-2' />
         </div>
       </div>
       <div className='w-[45%] h-[50%] mx-auto relative fadeIn'>
@@ -40,7 +41,7 @@ const Ristretto = () => {
           <p className='text-base text-white'>Local</p>
           <p className='text-base text-white'>Letras, Madrid</p>
           <p className='text-base text-white'>Diciemre 2022</p>
-          <p className='text-base text-white'>Proyecto: BersStudio</p>
+          <p className='text-base text-white'>Proyecto: BerdStudio</p>
         </div>
       </div>
       <div className='flex justify-center flex-auto pt-2 pb-10 font-Montserrat fadeIn'>

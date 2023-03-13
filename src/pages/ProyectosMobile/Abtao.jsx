@@ -16,21 +16,18 @@ const Abtao = () => {
       </div>
       <div className='w-full h-full pt-10 pb-10 fadeIn'>
         <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Abtao/7.jpg' />
-        </div>
-        <div className='w-[90%] mx-auto p-2'>
           <img src='/images/Abtao/1.jpg' />
         </div>
         <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Abtao/2.jpg' className='w-[45%] p-2' />
           <img src='/images/Abtao/3.jpg' className='w-[45%] p-2' />
         </div>
-        <div className='flex justify-center w-full grid-cols-2'>
-          <img src='/images/Abtao/4.jpg' className='w-[45%] p-2' />
-          <img src='/images/Abtao/6.jpg' className='w-[45%] p-2' />
-        </div>
         <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Abtao/5.jpg' />
+          <img src='/images/Abtao/4.jpg' />
+        </div>
+        <div className='flex justify-center w-full grid-cols-2'>
+          <img src='/images/Abtao/5.jpg' className='w-[45%] p-2' />
+          <img src='/images/Abtao/6.jpg' className='w-[45%] p-2' />
         </div>
       </div>
       <div className="flex justify-center fadeIn">
@@ -42,7 +39,7 @@ const Abtao = () => {
               <p className='text-base text-white'>Vivienda</p>
               <p className='text-base text-white'>Malasaña, Madrid</p>
               <p className='text-base text-white'>Diciembre 2021</p>
-              <p className='text-base text-white'>Proyecto: BersStudio</p>
+              <p className='text-base text-white'>Proyecto: BerdStudio</p>
             </div>
           </div>
           <div className='flex justify-center flex-auto pt-2 pb-10 font-Montserrat'>

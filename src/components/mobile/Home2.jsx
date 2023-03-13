@@ -1,6 +1,6 @@
 import React from "react";
 import { FaHome, FaHardHat } from "react-icons/fa";
-import { GrZoomIn } from "react-icons/gr";
+import { FiClock } from 'react-icons/fi'
 import Link from "next/link";
 
 const Home2 = () => {
@@ -8,7 +8,7 @@ const Home2 = () => {
     <div>
       <div className="w-full text-black bg-white font-Montserrat">
         <h3 className="pt-12 text-3xl font-bold text-center">Nosotros</h3>
-        <p className="mx-auto text-justify text-base font-Montserrat pt-4 w-[80%] leading-7">
+        <p className="mx-auto text-justify text-[15px] font-Montserrat pt-4 w-[80%] leading-7">
           Somos un estudio de arquitectura y construcción centrado en el mercado
           español. Nace de nuestra pasión por fusionar el diseño y la
           construcción. Cada proyecto es un nuevo reto donde se transforman la
@@ -19,7 +19,6 @@ const Home2 = () => {
       <div className="pt-16 pb-16 text-3xl leading-6 text-black font-Montserrat">
         <div className="mx-auto text-justify">
           <div className="w-[80%] mx-auto">
-            <FaHome className="mx-auto" />
             <p className="pt-4 mx-auto font-medium text-center">
               Años de experiencia
             </p>
@@ -31,7 +30,6 @@ const Home2 = () => {
             </p>
           </div>
           <div className="w-[80%] mx-auto pt-16">
-            <FaHardHat className="mx-auto" />
             <p className="pt-4 mx-auto font-medium text-center">Confianza</p>
             <p className="pt-4 text-[13px] mx-auto">
               Confía en nosotros para hacer realidad tu proyecto. Desde el
@@ -41,7 +39,6 @@ const Home2 = () => {
             </p>
           </div>
           <div className="w-[80%] mx-auto pt-16">
-            <GrZoomIn className="mx-auto" />
             <p className="pt-4 mx-auto font-medium text-center">
               Responsabilidad
             </p>
@@ -56,9 +53,9 @@ const Home2 = () => {
         </div>
       </div>
       <div className="flex flex-col items-center w-full px-4 mb-10">
-        <div className="flex flex-col items-center w-full mb-4">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 font-medium text-white bg-black rounded-full">
-            1
+        <div className="flex flex-col items-center mb-4 w-[85%] mx-auto">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 font-medium text-white bg-black rounded-full">
+            <FaHome className="mx-auto text-2xl" />
           </div>
           <p className="mb-2 text-lg font-medium text-center text-black">
             Definición del proyecto
@@ -68,9 +65,9 @@ const Home2 = () => {
             Planos, propuesta de materiales y presupuesto
           </p>
         </div>
-        <div className="flex flex-col items-center w-full mb-4">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 font-medium text-white bg-black rounded-full">
-            2
+        <div className="flex flex-col items-center mb-4 w-[85%] mx-auto">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 font-medium text-white bg-black rounded-full">
+            <FaHardHat className="mx-auto text-2xl" />
           </div>
           <p className="mb-2 text-lg font-medium text-center text-black">
             Seguimiento
@@ -81,9 +78,9 @@ const Home2 = () => {
             continuo
           </p>
         </div>
-        <div className="flex flex-col items-center w-full mb-4">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 font-medium text-white bg-black rounded-full">
-            3
+        <div className="flex flex-col items-center mb-4 w-[85%] mx-auto">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 font-medium text-white bg-black rounded-full">
+            <FiClock className="mx-auto text-2xl" />
           </div>
           <p className="mb-2 text-lg font-medium text-center text-black">
             Entrega llave en mano
@@ -96,15 +93,18 @@ const Home2 = () => {
       </div>
       <div className="flex h-[25rem] bg-stone-400">
         <div className="flex flex-col items-center justify-center mx-auto ">
-          <p className="mb-6 text-4xl font-extrabold text-black select-none font-Montserrat Extra Bold">
+          <p className="mb-6 text-4xl font-extrabold text-black select-none font-Montserrat Extra Bold leading-[4rem]">
             ¿Estás pensando
             <br /> en realizar una
             <br /> reforma integral?
           </p>
           <Link href="/ContactoMobile">
-            <button className="px-4 py-2 text-base font-bold text-white transition duration-500 bg-black rounded shadow-2xl hover:scale-105 font-Montserrat">
+            <button className="px-4 py-2 text-base font-bold text-black transition duration-500 bg-transparent rounded shadow-2xl hover:scale-105 font-Montserrat border-[3px] border-black">
               Contáctanos
             </button>
+            {/* <button className="px-4 py-2 text-base font-bold text-white transition duration-500 bg-black rounded shadow-2xl hover:scale-105 font-Montserrat">
+              Contáctanos
+            </button> */}
           </Link>
         </div>
       </div>

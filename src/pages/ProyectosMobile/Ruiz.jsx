@@ -12,7 +12,7 @@ const Ruiz = () => {
       <ScrollButton />
       <div className='pt-[5rem]'>
         <h1 className='text-4xl text-center font-Montserrat fadeIn font-base'>- Ruiz -</h1>
-        <p className='text-center fadeIn text-sm pt-4 w-[80%] mx-auto'>Vivienda - Malasaña, Madrid - Diciembre 2021 - Proyecto: BersStudio</p>
+        <p className='text-center fadeIn text-sm pt-4 w-[80%] mx-auto'>Vivienda - Malasaña, Madrid - Diciembre 2021 - Proyecto: BerdStudio</p>
       </div>
       <div className='w-full h-full pt-10 pb-10 fadeIn'>
         <div className='w-[90%] mx-auto p-2'>
@@ -22,35 +22,20 @@ const Ruiz = () => {
           <img src='/images/Ruiz/2.jpg' className='w-[45%] p-2' />
           <img src='/images/Ruiz/3.jpg' className='w-[45%] p-2' />
         </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Ruiz/4.jpg' />
+        <div className='flex justify-center w-full grid-cols-2'>
+          <img src='/images/Ruiz/4.jpg' className='w-[45%] p-2' />
+          <img src='/images/Ruiz/5.jpg' className='w-[45%] p-2' />
         </div>
         <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Ruiz/5.jpg' />
+          <img src='/images/Ruiz/6.jpg' />
         </div>
         <div className='flex justify-center w-full grid-cols-2'>
-          <img src='/images/Ruiz/6.jpg' className='w-[45%] p-2' />
-          <img src='/images/Ruiz/15.jpg' className='w-[45%] p-2' />
-        </div>
-        <div className='flex justify-center w-full grid-cols-2'>
+          <img src='/images/Ruiz/7.jpg' className='w-[45%] p-2' />
           <img src='/images/Ruiz/8.jpg' className='w-[45%] p-2' />
-          <img src='/images/Ruiz/9.jpg' className='w-[45%] p-2' />
-        </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Ruiz/10.jpg' />
-        </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Ruiz/11.jpg' />
         </div>
         <div className='flex justify-center w-full grid-cols-2'>
-          <img src='/images/Ruiz/12.jpg' className='w-[45%] p-2' />
-          <img src='/images/Ruiz/13.jpg' className='w-[45%] p-2' />
-        </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Ruiz/14.jpg' />
-        </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Ruiz/7.jpg' />
+          <img src='/images/Ruiz/9.jpg' className='w-[45%] p-2' />
+          <img src='/images/Ruiz/10.jpg' className='w-[45%] p-2' />
         </div>
       </div>
       <div className="flex justify-center fadeIn">

@@ -12,7 +12,7 @@ const Osom = () => {
       <ScrollButton />
       <div className='pt-[5rem]'>
         <h1 className='text-4xl text-center font-Montserrat fadeIn font-base'>- Osom Cantine -</h1>
-        <p className='text-center fadeIn text-sm pt-4 w-[80%] mx-auto'>Local - Letras, Madrid - Diciembre 2022 - Proyecto: BersStudio</p>
+        <p className='text-center fadeIn text-sm pt-4 w-[80%] mx-auto'>Local - Letras, Madrid - Diciembre 2022 - Proyecto: BerdStudio</p>
       </div>
       <div className='w-full h-full pt-10 pb-10 fadeIn'>
         <div className='w-[90%] mx-auto p-2'>
@@ -25,32 +25,13 @@ const Osom = () => {
         <div className='w-[90%] mx-auto p-2'>
           <img src='/images/Osom/4.jpg' />
         </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Osom/5.jpg' />
+        <div className='flex justify-center w-full grid-cols-2'>
+          <img src='/images/Osom/5.jpg' className='w-[45%] p-2' />
+          <img src='/images/Osom/6.jpg' className='w-[45%] p-2' />
         </div>
         <div className='flex justify-center w-full grid-cols-2'>
-          <img src='/images/Osom/16.jpg' className='w-[45%] p-2' />
           <img src='/images/Osom/7.jpg' className='w-[45%] p-2' />
-        </div>
-        <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Osom/8.jpg' className='w-[45%] p-2' />
-          <img src='/images/Osom/9.jpg' className='w-[45%] p-2' />
-        </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Osom/12.jpg' />
-        </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Osom/11.jpg' />
-        </div>
-        <div className='flex justify-center w-full grid-cols-2'>
-          <img src='/images/Osom/10.jpg' className='w-[45%] p-2' />
-          <img src='/images/Osom/13.jpg' className='w-[45%] p-2' />
-        </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Osom/14.jpg' />
-        </div>
-        <div className='w-[90%] mx-auto p-2'>
-          <img src='/images/Osom/15.jpg' />
         </div>
       </div>
       <div className='w-[45%] h-[50%] mx-auto relative fadeIn'>

@@ -16,27 +16,22 @@ const Margallo = () => {
       </div>
       <div className='w-full h-full pt-10 pb-10 fadeIn'>
         <div className='w-[60%] mx-auto p-2'>
-          <img src='/images/Margallo/10.jpg' />
-        </div>
-        <div className='flex justify-center w-full grid-cols-2'>
-          <img src='/images/Margallo/5.jpg' className='w-[30%] p-2' />
-          <img src='/images/Margallo/4.jpg' className='w-[30%] p-2' />
-        </div>
-        <div className='w-[60%] mx-auto p-2'>
-          <img src='/images/Margallo/8.jpg' />
-        </div>
-        <div className='w-[60%] mx-auto p-2'>
-          <img src='/images/Margallo/7.jpg' />
-        </div>
-        <div className='w-[60%] mx-auto p-2'>
-          <img src='/images/Margallo/6.jpg' />
+          <img src='/images/Margallo/1.jpg' />
         </div>
         <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Margallo/2.jpg' className='w-[30%] p-2' />
           <img src='/images/Margallo/3.jpg' className='w-[30%] p-2' />
         </div>
         <div className='w-[60%] mx-auto p-2'>
-          <img src='/images/Margallo/1.jpg' />
+          <img src='/images/Margallo/4.jpg' />
+        </div>
+        <div className='flex justify-center w-full grid-cols-2'>
+          <img src='/images/Margallo/5.jpg' className='w-[30%] p-2' />
+          <img src='/images/Margallo/6.jpg' className='w-[30%] p-2' />
+        </div>
+        <div className='flex justify-center w-full grid-cols-2'>
+          <img src='/images/Margallo/7.jpg' className='w-[30%] p-2' />
+          <img src='/images/Margallo/8.jpg' className='w-[30%] p-2' />
         </div>
       </div>
       <div className="flex justify-center fadeIn">
@@ -67,7 +62,7 @@ const Margallo = () => {
               <p className='text-lg text-white'>Vivienda</p>
               <p className='text-lg text-white'>Malasaña, Madrid</p>
               <p className='text-lg text-white'>Diciembre 2021</p>
-              <p className='text-lg text-white'>Proyecto: BersStudio</p>
+              <p className='text-lg text-white'>Proyecto: BerdStudio</p>
             </div>
           </div>
           <div className='flex justify-center flex-auto pt-2 pb-10 font-Montserrat'>

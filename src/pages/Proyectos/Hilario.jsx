@@ -20,20 +20,18 @@ const Hilario = () => {
         </div>
         <div className='flex justify-center w-full grid-cols-2'>
           <img src='/images/Hilario/2.jpg' className='w-[30%] p-2' />
-          <img src='/images/Hilario/6.jpg' className='w-[30%] p-2' />
+          <img src='/images/Hilario/3.jpg' className='w-[30%] p-2' />
         </div>
         <div className='w-[60%] mx-auto p-2'>
           <img src='/images/Hilario/4.jpg' />
         </div>
-        <div className='w-[60%] mx-auto p-2'>
-          <img src='/images/Hilario/7.jpg' />
+        <div className='flex justify-center w-full grid-cols-2'>
+          <img src='/images/Hilario/5.jpg' className='w-[30%] p-2' />
+          <img src='/images/Hilario/6.jpg' className='w-[30%] p-2' />
         </div>
         <div className='flex justify-center w-full grid-cols-2'>
-          <img src='/images/Hilario/3.jpg' className='w-[30%] p-2' />
-          <img src='/images/Hilario/5.jpg' className='w-[30%] p-2' />
-        </div>
-        <div className='w-[60%] mx-auto p-2'>
-          <img src='/images/Hilario/8.jpg' />
+          <img src='/images/Hilario/7.jpg' className='w-[30%] p-2' />
+          <img src='/images/Hilario/8.jpg' className='w-[30%] p-2' />
         </div>
       </div>
       <div className='w-[17.5%] h-[17.5%] mx-auto relative fadeIn'>
