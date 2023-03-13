@@ -42,7 +42,7 @@ const Margallo = () => {
       <div className="flex justify-center">
         <div className="w-[17.5%] h-[17.5%] pr-4">
           <div className='w-full h-full mx-auto relative'>
-            <img src='/images/Hilario/Portada.jpg' className='mx-auto' />
+            <img src='/images/Hilario/portada.jpg' className='mx-auto' />
             <div className='absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100'>
               <p className='text-2xl font-bold text-white'>Hilario</p>
               <p className='text-lg text-white'>Vivienda</p>
@@ -54,14 +54,14 @@ const Margallo = () => {
             <Link href="/Proyectos/Hilario">
               <div className='flex flex-auto items-center bg-black/80 hover:bg-black/60 rounded-full px-2 py-2 transition duration-300'>
                 <AiOutlineArrowLeft className='text-white' />
-                <p className='pr-2 text-white'>Anterior proyecto</p>
+                <p className='pl-2 text-white'>Anterior proyecto</p>
               </div>
             </Link>
           </div>
         </div>
         <div className="w-[17.5%] h-[17.5%] pl-4">
           <div className='w-full h-full mx-auto relative'>
-            <img src='/images/Ruiz/Portada.jpg' className='mx-auto' />
+            <img src='/images/Ruiz/portada.jpg' className='mx-auto' />
             <div className='absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100'>
               <p className='text-2xl font-bold text-white'>Ruiz</p>
               <p className='text-lg text-white'>Vivienda</p>

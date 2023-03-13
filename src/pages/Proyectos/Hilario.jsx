@@ -53,7 +53,6 @@ const Hilario = () => {
           </div>
         </Link>
       </div>
-
       <Footer />
     </div>
   )

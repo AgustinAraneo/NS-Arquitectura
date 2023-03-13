@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '@/components/mobile/Navbar'
 import Footer from '@/components/mobile/Footer'
 import ScrollButton from '@/components/desktop/ScrollButton'
+import { AiOutlineArrowRight } from 'react-icons/ai'
+import Link from 'next/link'
 
 const Osom = () => {
   return (
@@ -50,6 +52,23 @@ const Osom = () => {
         <div className='w-[90%] mx-auto p-2'>
           <img src='/images/Osom/15.jpg' />
         </div>
+      </div>
+      <div className='w-[45%] h-[50%] mx-auto relative'>
+        <img src='/images/Ristretto/portada.jpg' className='mx-auto' />
+        <div className='absolute inset-0 flex flex-col items-center justify-center transition-all duration-500 bg-gray-800 opacity-0 hover:bg-opacity-50 hover:opacity-100'>
+          <p className='text-lg font-bold text-white'>Black Ristretto</p>
+          <p className='text-base text-white'>Local</p>
+          <p className='text-base text-white'>Salamanca, Madrid</p>
+          <p className='text-base text-white'>Enero 2023</p>
+        </div>
+      </div>
+      <div className='flex flex-auto justify-center font-Montserrat pt-2 pb-10'>
+        <Link href="/ProyectosMobile/Ristretto">
+          <div className='flex flex-auto items-center bg-black/80 hover:bg-black/60 rounded-full px-1 py-1 transition duration-300'>
+            <p className='pr-2 text-white text-[12px]'>Siguiente proyecto</p>
+            <AiOutlineArrowRight className='text-white' />
+          </div>
+        </Link>
       </div>
       <Footer />
     </div>
