@@ -1,9 +1,21 @@
-import React from "react";
+import {React, useEffect} from "react";
 import { FaHome, FaHardHat } from "react-icons/fa";
 import { FiClock } from 'react-icons/fi'
 import Link from "next/link";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home2 = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2500, // Duración de la animación en milisegundos
+      easing: 'ease-out', // Efecto de animación
+      once: true, // Para que la animación solo se ejecute una vez
+      mirror: false, // Para deshabilitar la animación inversa
+    });
+  }, []);
+
   return (
     <div>
       <div className="w-full text-black bg-white font-Montserrat">
@@ -39,8 +51,8 @@ const Home2 = () => {
         </div>
       </div>
       <div className="flex flex-col items-center w-full px-4 mb-10">
-        <div className="flex flex-col items-center mb-4 w-[85%] mx-auto">
-          <div className="flex items-center justify-center w-12 h-12 mb-4 font-medium text-white bg-black rounded-full">
+        <div className="flex flex-col items-center mb-4 w-[85%] mx-auto" data-aos="fade-up">
+          <div className="flex items-center justify-center w-12 h-12 mb-4 font-medium text-white bg-black rounded-full ">
             <FaHome className="mx-auto text-2xl" />
           </div>
           <p className="mb-2 text-lg font-medium text-center text-black">
@@ -51,7 +63,7 @@ const Home2 = () => {
             Planos, propuesta de materiales y presupuesto
           </p>
         </div>
-        <div className="flex flex-col items-center mb-4 w-[85%] mx-auto">
+        <div className="flex flex-col items-center mb-4 w-[85%] mx-auto" data-aos="fade-up">
           <div className="flex items-center justify-center w-12 h-12 mb-4 font-medium text-white bg-black rounded-full">
             <FaHardHat className="mx-auto text-2xl" />
           </div>
@@ -64,7 +76,7 @@ const Home2 = () => {
             continuo
           </p>
         </div>
-        <div className="flex flex-col items-center mb-4 w-[85%] mx-auto">
+        <div className="flex flex-col items-center mb-4 w-[85%] mx-auto" data-aos="fade-up">
           <div className="flex items-center justify-center w-12 h-12 mb-4 font-medium text-white bg-black rounded-full">
             <FiClock className="mx-auto text-2xl" />
           </div>
