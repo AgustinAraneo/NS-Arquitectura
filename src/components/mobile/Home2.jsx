@@ -7,47 +7,33 @@ const Home2 = () => {
   return (
     <div>
       <div className="w-full text-black bg-white font-Montserrat">
-        <h3 className="pt-12 text-3xl font-bold text-center">Nosotros</h3>
+        <h3 className="pt-12 text-3xl font-bold text-center">Sobre Nosotros</h3>
         <p className="mx-auto text-justify text-[15px] font-Montserrat pt-4 w-[80%] leading-7">
-          Somos un estudio de arquitectura y construcción centrado en el mercado
-          español. Nace de nuestra pasión por fusionar el diseño y la
-          construcción. Cada proyecto es un nuevo reto donde se transforman la
-          luz, el espacio, las ingenierías y el detalle, con el objetivo de
-          cubrir las necesidades de uso, confort y coste del cliente.
+        Somos un estudio que nace de nuestra pasión por fusionar diseño y construcción. Cada proyecto es un nuevo reto donde se transforman la luz, el espacio, las ingenierías y el detalle, con el objetivo de cubrir las necesidades de uso, confort y coste del cliente.
         </p>
       </div>
       <div className="pt-16 pb-16 text-3xl leading-6 text-black font-Montserrat">
         <div className="mx-auto text-justify">
           <div className="w-[80%] mx-auto">
             <p className="pt-4 mx-auto font-medium text-center">
-              Años de experiencia
+            Transparencia & Compromiso
             </p>
             <p className="pt-4 text-[13px] mx-auto">
-              Nuestro equipo está altamente calificado y cuentan con años de
-              experiencia en la industria. Nos mantenemos actualizados con las
-              últimas tendencias y tecnologías en el campo de la arquitectura y
-              la construcción, para ofrecer soluciones innovadoras y eficientes.
+            Estamos comprometidos en proporcionar una experiencia de construcción transparente y responsable con nuestros clientes. Trabajamos con los más altos estándares de calidad, eficiencia y atención al detalle.
             </p>
           </div>
           <div className="w-[80%] mx-auto pt-16">
-            <p className="pt-4 mx-auto font-medium text-center">Confianza</p>
+            <p className="pt-4 mx-auto font-medium text-center">Honestidad</p>
             <p className="pt-4 text-[13px] mx-auto">
-              Confía en nosotros para hacer realidad tu proyecto. Desde el
-              inicio hasta el final, te guiaremos de manera profesional y
-              cercana para asegurarnos de que tu visión se convierta en
-              realidad.
+            Confía en nosotros para hacer realidad tu proyecto. Desde el inicio hasta el final, te guiaremos de manera profesional y cercana para asegurarnos de que tus ideas se conviertan en realidad.
             </p>
           </div>
           <div className="w-[80%] mx-auto pt-16">
             <p className="pt-4 mx-auto font-medium text-center">
-              Responsabilidad
+            Saber hacer
             </p>
             <p className="pt-4 text-[13px]  mx-auto">
-              Estamos comprometidos en proporcionar una experiencia de
-              construcción transparente y sin complicaciones para nuestros
-              clientes. Trabajamos con los más altos estándares de calidad,
-              eficiencia y atención al detalle, para que tu proyecto sea
-              entregado a tiempo y en condiciones.
+            Nuestro equipo está altamente calificado y cuentan con años de experiencia en la industria. Nos mantenemos actualizados con las últimas tendencias y tecnologías en el campo de la arquitectura y la construcción, para ofrecer soluciones innovadoras y eficientes.
             </p>
           </div>
         </div>
