@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between bg-white bg-opacity-80 px-4 py-3 relative">
+    <nav className="flex items-center justify-between bg-white px-4 py-3 relative">
       <div className="flex items-center">
         <p>
           <img
@@ -40,28 +40,27 @@ const Navbar = () => {
           </svg>
         </button>
         <div
-          className={`${
-            isOpen ? "flex flex-col absolute bg-white mt-2 rounded-md shadow-lg" : "hidden"
-          } md:flex md:items-center md:ml-4 mobile-menu`}
+          className={`${isOpen ? "flex flex-col absolute bg-white mt-2 rounded-md shadow-lg" : "hidden"
+            } md:flex md:items-center md:ml-4 mobile-menu`}
           style={{ top: "calc(100% + 0.5rem)", left: 0 }}
         >
           <div className="fixed right-5 bg-white mt-2 rounded-md shadow-lg">
-          <Link href="/">
-            <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium text-center border-gray-100 border-b-2 mx-auto font-Montserrat ">
-              Inicio
-            </p>
-          </Link>
-          <Link href="/ReformasMobile">
-            <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium border-gray-100 border-b-2 mx-auto font-Montserrat">
-              Proyectos
-            </p>
-          </Link>
-          <Link href="/ContactoMobile">
-            <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium text-center font-Montserrat">
-              Contacto
-            </p>
-          </Link>
-        </div>
+            <Link href="/">
+              <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium text-center border-gray-100 border-b-2 mx-auto font-Montserrat ">
+                Inicio
+              </p>
+            </Link>
+            <Link href="/ReformasMobile">
+              <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium border-gray-100 border-b-2 mx-auto font-Montserrat">
+                Proyectos
+              </p>
+            </Link>
+            <Link href="/ContactoMobile">
+              <p className="text-black hover:text-gray-900 block px-4 py-2 font-medium text-center font-Montserrat">
+                Contacto
+              </p>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
